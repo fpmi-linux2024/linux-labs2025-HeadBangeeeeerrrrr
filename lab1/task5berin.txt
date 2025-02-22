@@ -1,0 +1,389 @@
+Script started on 2025-02-13 19:49:08+03:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="65" LINES="40"]
+[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ help
+[?2004lGNU bash, версия 5.1.16(1)-release (x86_64-pc-linux-gnu)
+Показанные ниже команды определены внутри командного процессора.  Чтобы вывести полный список, введите «help».
+Чтобы вывести справку по функции «name», введите «help name».
+Чтобы вывести справку по командному процессору, введите «info bash».
+Чтобы вывести справку по командам, которые отсутствуют в этом списке, введите «man -k» или «info».
+
+Звёздочка (*) рядом с названием команды означает, что эта команда отключена.
+
+ задание [&]                     history [-c] [-d смещение] [>
+ (( выражение ))                 if КОМАНДЫ; then КОМАНДЫ; [ >
+ . файл [аргументы]              jobs [-lnprs] [задание ...] >
+ :                               kill [-s назв_сигнала | -n н>
+ [ аргумент... ]                 let аргумент [аргумент ...]
+ [[ выражение ]]                 local [параметр] имя[=значен>
+ alias [-p] [имя[=значение] ..>  logout [n]
+ bg [задание ...]                mapfile [-d разделитель] [-n>
+ bind [-lpvsPSVX] [-m раскладк>  popd [-n] [+N | -N]
+ break [n]                       printf [-v переменная] форма>
+ builtin [встр_команда [аргуме>  pushd [-n] [+N | -N | катало>
+ caller [выражение]              pwd [-LP]
+ case СЛОВО in [ШАБЛОН [| ШАБЛ>  read [-ers] [-a массив] [-d >
+ cd [-L|[-P [-e]] [-@]] [катал>  readarray [-d разделитель] [>
+ command [-pVv] команда [аргум>  readonly [-aAf] [имя[=значен>
+ compgen [-abcdefgjksuv] [-o п>  return [n]
+ complete [-abcdefgjksuv] [-pr>  select ИМЯ [in СЛОВА ... ;] >
+ compopt [-o|+o параметр] [-DE>  set [-abefhkmnptuvxBCHP] [-o>
+ continue [n]                    shift [n]
+ coproc [ИМЯ] команда [перенап>  shopt [-pqsu] [-o] [параметр>
+ declare [-aAfFgiIlnrtux] [-p]>  source файл [аргументы]
+ dirs [-clpv] [+N] [-N]          suspend [-f]
+ disown [-h] [-ar] [задание ..>  test [выражение]
+ echo [-neE] [аргумент ...]      time [-p] конвейер
+ enable [-a] [-dnps] [-f файл]>  times
+ eval [аргумент ...]             trap [-lp] [[аргумент] сигна>
+ exec [-cl] [-a имя] [команда >  true
+ exit [n]                        type [-afptP] имя [имя ...]
+ export [-fn] [имя[=значение .>  typeset [-aAfFgiIlnrtux] [-p>
+ false                           ulimit [-SHabcdefiklmnpqrstu>
+ fc [-e редактор] [-lnr] [перв>  umask [-p] [-S] [режим]
+ fg [задание]                    unalias [-a] имя [имя ...]
+ for ИМЯ [in СЛОВА... ;] do КО>  unset [-f] [-v] [-n] [имя ..>
+ for (( выраж1; выраж2; выраж3>  until КОМАНДЫ; do КОМАНДЫ; d>
+ function ИМЯ { КОМАНДЫ ; } ил>  переменные — имена и значени>
+ getopts строка_параметров имя>  wait [-fn] [-p переменная] [>
+ hash [-lr] [-p путь] [-dt] [и>  while КОМАНДЫ; do КОМАНДЫ; d>
+ help [-dms] [шаблон ...]        { КОМАНДЫ ; }
+[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ ls -l
+[?2004lитого 52
+drwxrwxr-x 2 user user 4096 фев 13 19:11  [0m[01;34mberin[0m
+drwxr-xr-x 2 user user 4096 фев 13 18:33  [01;34mDocuments[0m
+drwx------ 4 user user 4096 фев 13 06:49  [01;34msnap[0m
+-rw-rw-r-- 1 user user    0 фев 13 19:49  task5berin.txt
+drwxrwxr-x 2 user user 4096 фев 13 19:47  [01;34mTestFold[0m
+-rw-rw-r-- 1 user user   43 фев 13 19:33  test.txt
+-rw-rw-r-- 1 user user    0 фев 13 19:49  timelog5berin
+drwxr-xr-x 2 user user 4096 фев 13 10:15  [01;34mВидео[0m
+drwxr-xr-x 2 user user 4096 фев 13 18:32  [01;34mДокументы[0m
+drwxr-xr-x 2 user user 4096 фев 13 18:05  [01;34mЗагрузки[0m
+drwxr-xr-x 2 user user 4096 фев 13 10:15  [01;34mИзображения[0m
+drwxr-xr-x 2 user user 4096 фев 13 10:15  [01;34mМузыка[0m
+drwxr-xr-x 2 user user 4096 фев 13 10:15  [01;34mОбщедоступные[0m
+drwxr-xr-x 2 user user 4096 фев 13 10:15 [01;34m'Рабочий стол'[0m
+drwxr-xr-x 2 user user 4096 фев 13 10:15  [01;34mШаблоны[0m
+[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ cd ~.[K/Download
+[?2004lbash: cd: /home/user/Download: Нет такого файла или каталога
+[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ cd ~/Download[K[K[K[K[K[Kcuments
+[?2004l[?2004h]0;user@Ubuntu: ~/Documents[01;32muser@Ubuntu[00m:[01;34m~/Documents[00m$ cd.. ..
+[?2004l[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ pwd
+[?2004l/home/user
+[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ mkdir NewDir
+[?2004l[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ rmdir NewDir/[K
+[?2004l[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ cp test.txt newtest.txt
+[?2004l[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ mv test.txt ~/Documents
+[?2004l[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ rm newtest.txt
+[?2004l[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ history
+[?2004l    1  echo "Hello World"
+    2  cls
+    3  clear
+    4  script UbuntuCommand.txt
+    5  cat text.txt
+    6  vi text.txt
+    7  vim text.txt
+    8  nano text.txt
+    9  clear
+   10  script -a UbuntuCommand.txt
+   11  more test.txt 
+   12  less test.txt 
+   13  mkdir TestFolder
+   14  cat test.txt 
+   15  cp test.txt 
+   16  exit
+   17  cp test.txt test2.txt
+   18  mv test.txt NewTest.txt
+   19  mv NewTest.txt /home/user/Documents
+   20  rm NewTest.txt
+   21  rm test2.txt 
+   22  find /home/user/Documents -name 'NewTest.txt'
+   23  history
+   24  clear
+   25  sudo nano /home/user/Documents/NewTest.txt 
+   26  sudo nano /etc/hosts
+   27  exit
+   28  sctipt -a UbuntuCommand.txt
+   29  script -a UbuntuCommand.txt
+   30  sc
+   31  script -a UbuntuCommand.txt
+   32  sudo
+   33  /etc/sudoers
+   34  sudo nano /etc/sudoers
+   35  sudo -
+   36  su
+   37  su nano etc/hosts
+   38  su -
+   39  sudo nano etc/hosts
+   40  sudo etc/hosts
+   41  sudo /etc/hosts
+   42  sudo nano etc/hosts
+   43  vi test.txt
+   44  vi gksdf.txt
+   45  cat gksdf.txt 
+   46  rm gksdf.txt
+   47  rm .test.txt.swp 
+   48  ls -l
+   49  cd /home/user/Documents
+   50  exit
+   51  ls -l
+   52  cd /home/user/Documents
+   53  exit
+   54  vi sdsad.txt
+   55  scripts testim.txt
+   56  script testim.txt
+   57  clear
+   58  scriptreplay testim.txt 
+   59  scriptreplay testim.txt
+   60  cd /home/user
+   61  scriptreplay testim.txt
+   62  cd ~/TestFolder/testim.txt
+   63  cd ~/TestFolder/
+   64  scriptreplay testim.txt
+   65  scriptreplay --timing=time_log  testim.txt
+   66  scriptreplay --timing=time_log testim.txt
+   67  chmod +x testim.txt
+   68  ./testim.txt
+   69  bash testim.txt
+   70  cat testim.txt
+   71  script -ttime_log testim2.txt
+   72  scriptreplay --timing=time_log testim2.txt
+   73  echo "Hello World"
+   74  ls -l
+   75  cd ~/Documents
+   76  cd ..
+   77  vi test.txt
+   78  more test.txt
+   79  less test.txt
+   80  mkdir TestFold
+   81  cat test.txt
+   82  cp test.txt newtest.txt
+   83  mv newtest.txt ~/Documents
+   84  mv test.txt oldtest.txt
+   85  rm oldtest.txt
+   86  find ~/Documents -name "newtest.txt"
+   87  history
+   88  clear
+   89  sudo nano ~/Documents/newtest.txt 
+   90  exit
+   91  echo 'Hello World'
+   92  ls -l
+   93  cd ~/Documents
+   94  cd ..
+   95  vi test.txt
+   96  more test.txt
+   97  less test.txt
+   98  mkdir TestFolder
+   99  cat test.txt
+  100  cp test.txt newtest.txt
+  101  mv newtest.txt ~/Documents
+  102  mv test.txt oldtest.txt
+  103  rm oldtest.txt
+  104  find ~/Documents -name 'newtest.txt'
+  105  history
+  106  clear
+  107  sudo nano ~/Documents/newtest.txt 
+  108  exit
+  109  script --timing=Ubuntu_TimeLog Ubuntu_Comm.txt
+  110  scriptreplay --timing=Ubuntu_TimeLog Ubuntu_Comm.txt
+  111  echo "Hello World"
+  112  clear
+  113  ls -l
+  114  clear
+  115  cd ~/Documents
+  116  cd ..
+  117  clear
+  118  vi test.txt
+  119  clear
+  120  more test.txt
+  121  clear
+  122  less test.txt 
+  123  clear
+  124  mkdir TestFold
+  125  rm TestFold
+  126  clear
+  127  mkdir TestFold
+  128  clear
+  129  cat test.txt 
+  130  clear
+  131  cp test.txt newtest.txt
+  132  mv newtest.txt ~/Documents
+  133  clear
+  134  mv newtest.txt ~/Documents
+  135  clear
+  136  mv test.txt oldtest.txt
+  137  clear
+  138  rm oldtest.txt
+  139  clear
+  140  find ~/Documents -name "newtest.txt"
+  141  clear
+  142  history
+  143  clear
+  144  sudo nano ~/Documents/newtest.txt 
+  145  help
+  146  ls -l
+  147  cd ~/Documents
+  148  cd ..
+  149  pwd
+  150  mkdir NewDir
+  151  rmdir NewDir
+  152  cp test.txt newtest.txt
+  153  mv test.txt ~/Documents
+  154  rm newtest.txt
+  155  history
+  156  exit
+  157  help
+  158  ls -s
+  159  cd ~/Documents
+  160  cd ..
+  161  pwd
+  162  mkdir NewDirectory
+  163  rmdir NewDirectory
+  164  tee test.txt
+  165  cp test.txt newtest.txt
+  166  mv test.txt ~/Документы/
+  167  rm newtest.txt
+  168  history
+  169  cal
+  170  sudo apt install ncal
+  171  cal
+  172  date
+  173  who
+  174  whoami
+  175  clear
+  176  script --timing=timelog6berin task6berin.txt
+  177  scriptreply --timing=timelog6berin task6berin.txt
+  178  scriptreplay --timing=timelog6berin task6berin.txt
+  179  cal
+  180  date
+  181  who
+  182  whoami
+  183  exit
+  184  echo 'Linux so, it may as well be' | tee example.txt
+  185  cat example.txt
+  186  nano example.txt
+  187  cat example.txt
+  188  exit
+  189  mkdir berin
+  190  cd ~/berin
+  191  cd ..
+  192  rmdir berin
+  193  clear
+  194  mkdir berin
+  195  rmdir berin
+  196  clear
+  197  mkdir berin
+  198  mv task6berin.txt ~/berin
+  199  mv timelog6berin ~/berin
+  200  cd ~/berin
+  201  script --timing=timelog9berin task9berin.txt
+  202  cd ..
+  203  сd ~/berin
+  204  cd ~/berin
+  205  clear
+  206  script --timing=timelog10berin task10berin.txt
+  207  cd ~/downloads
+  208  cd ~/Загрузки/
+  209  cat task6.6Dubkov.txt 
+  210  2RR65;6800;1c10;rgb:ffff/ffff/ffff11;rgb:3030/0a0a/2424
+  211  cat task6.6Dubkov.txt 
+  212  2RR65;6800;1c10;rgb:ffff/ffff/ffff11;rgb:3030/0a0a/2424
+  213  vim os_info.c
+  214  visudo apt install vim
+  215  sudo apt install vim
+  216  vim os_info.c
+  217  gcc os_info.c -o os_info
+  218  ./os_info 
+  219  vim oscheck.c
+  220  gcc oscheck.c -o oscheck
+  221  ./oscheck 
+  222  exit
+  223  script --timing=timelog6berin task6berin.txt
+  224  vim oscheck.c
+  225  exit
+  226  script --timing=timelog5 task5.txt
+  227  scriptreplay --timing=timelog5 task5.txt
+  228  help
+  229  ls -l
+  230  exit
+  231  pwd
+  232  who
+  233  exit
+  234  cal
+  235  date
+  236  who
+  237  whoami
+  238  echo "Linux so, it may as well be" | tee test.txt
+  239  cat test.txt
+  240  nano test.txt
+  241  cat test.txt
+  242  exit
+  243  script --timing=timelogt1 test1.txt
+  244  script [200~0.012341 80--timing=timelogt2 test2.txt
+  245  scriptreplay --timing=task5_6berinCopy task5_6berinCopy.txt
+  246  scriptreplay --timing=timelog5_6berinCopy task5_6berinCopy.txt
+  247  scriptreplay -t 0.5 --timing=timelog5_6berinCopy task5_6berinCopy.txt
+  248  scriptreplay -t 2.5 --timing=timelog5_6berinCopy task5_6berinCopy.txt
+  249  scriptreplay --timing=timelog5_6berin task5_6berin.txt
+  250  cal
+  251  date
+  252  who
+  253  whoami
+  254  echo "Linux so, it may as well be" | tee test.txt
+  255  cat test.txt
+  256  nano test.txt
+  257  cat test.txt
+  258  exit
+  259  script -a -timing=timelog5_6berin  task5_6berin.txt 
+  260  scriptreplay --timing=timelog5_6berin  task5_6berin.txt 
+  261  scriptreplay -t 2.5  timelog5_6berin  task5_6berin.txt 
+  262  scriptreplay -t 0.5  timelog5_6berin  task5_6berin.txt 
+  263  scriptreplay -t 0.5 -a timelog5_6berin  task5_6berin.txt 
+  264  scriptreplay -t= timelog5_6berin  task5_6berin.txt 
+  265  scriptreplay --t= timelog5_6berin  task5_6berin.txt 
+  266  scriptreplay --timing=timelog5_6berin  task5_6berin.txt 
+  267  scriptreplay --timing=iming=timelog5_6berin  task5_6berin.txt 
+  268  exit
+  269  help
+  270  ls -l
+  271  cd ~/Download
+  272  cd ~/Documents
+  273  cd ..
+  274  pwd
+  275  mkdir NewDir
+  276  rmdir NewDir
+  277  cp test.txt newtest.txt
+  278  mv test.txt ~/Documents
+  279  rm newtest.txt
+  280  history
+[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ cal
+[?2004l    Февраль 2025      
+Вс Пн Вт Ср Чт Пт Сб  
+                   1  
+ 2  3  4  5  6  7  8  
+ 9 10 11 12 13 14 15  
+16 17 18 19 20 21 22  
+23 24 25 26 27 28     
+                      
+[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ data
+[?2004lКоманда «data» не найдена. Возможно, вы имели в виду:
+  команда 'dat' из deb-пакета liballegro4-dev (2:4.4.3.1-2)
+  команда 'date' из deb-пакета coreutils (8.32-4.1ubuntu1.2)
+Попробуйте: sudo apt install <имя_deb-пакета>
+[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ date
+[?2004lЧт 13 фев 2025 19:51:04 +03
+[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ who
+[?2004luser     tty2         2025-02-13 17:30 (tty2)
+[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ whoami
+[?2004luser
+[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ echo "Linux so, it may as well be" | tee exam.txt
+[?2004lLinux so, it may as well be
+[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ cat exam.txt
+[?2004lLinux so, it may as well be
+[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ nano t[Kexam.tst[K[Kxt
+[?2004l[?2004h[?1049h[22;0;0t[1;40r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[38;28H(B[0;7m[ Чтение… ](B[m[38;22H(B[0;7m[ Прочитана 1 строка ](B[m[H(B[0;7m  GNU nano 6.2                 exam.txt                          [1;64H(B[m[39d(B[0;7m^G(B[m Справка   (B[0;7m^O(B[m Записать  (B[0;7m^W(B[m Поиск     (B[0;7m^K(B[m Вырезать  (B[0;7m^T(B[m Выполнить[40d(B[0;7m^X(B[m Выход     (B[0;7m^R(B[m ЧитФайл   (B[0;7m^\(B[m Замена    (B[0;7m^U(B[m Вставить  (B[0;7m^J(B[m Выровнять[2dLinux so, it may as well be[?12l[?25h[?25l[?12l[?25hL[?25l[?12l[?25hi[?25l[?12l[?25hn[?25l[?12l[?25hu[?25l[?12l[?25hx[?25l[?12l[?25h [?25l[?12l[?25hs[?25l[?12l[?25ho[?25l[1;41H(B[0;7m*[64G(B[m[?12l[?25h[2;9H , it may as well be[2;10H[?25l[?12l[?25ha, it may as well be[2;11H[?25l[?12l[?25hd, it may as well be[2;12H[?25l[?12l[?25hv, it may as well be[2;13H[?25l[?12l[?25ha, it may as well be[2;14H[?25l[?12l[?25hn, it may as well be[2;15H[?25l[?12l[?25hc, it may as well be[2;16H[?25l[?12l[?25he, it may as well be[2;17H[?25l[?12l[?25hd, it may as well be[2;18H[?25l[?12l[?25h,[?25l[?12l[?25h [?25l[38d[K[?12l[?25h[2;21H[?25l[?12l[?25ht[?25l[?12l[?25h [?25l[?12l[?25hm[?25l[?12l[?25ha[?25l[?12l[?25hy[?25l[?12l[?25h [?25l[?12l[?25ha[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25hw[?25l[?12l[?25he[?25l[?12l[?25hl[?25l[?12l[?25hl[?25l[?12l[?25h [?25l[?12l[?25hb[?25l[?12l[?25he[?25l[?12l[?25h[3d[?25l[?12l[?25h[?25l[?12l[?25h[2;37H[?25l[?12l[?25h [?25l[?12l[?25hm[?25l[?12l[?25ha[?25l[?12l[?25hg[?25l[?12l[?25hi[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25hc[?25l[3d[?12l[?25h[?25l[38;28H(B[0;7m[ Запись… ](B[m[1;41H(B[0;7m [64G(B[m[38;23H(B[0;7m[ Записано 2 строки ](B[m[?12l[?25h[3d[?25l[38d[J[40d[?12l[?25h[40;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ cat exam.txt 
+[?2004lLinux so advanced, it may as well be magic
+
+[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2025-02-13 19:52:31+03:00 [COMMAND_EXIT_CODE="0"]
