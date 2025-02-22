@@ -10,6 +10,6 @@
 
 [Ссылка на отчет](https://disk.yandex.by/d/d6-kN5WgcWVQNg)
 
-*[Lab2-intro](https://github.com/HeadBangeeeeerrrrr/lab2-intro)
++ [Lab2-intro](https://github.com/HeadBangeeeeerrrrr/lab2-intro)
 
-*[Lab2-markdown-syntax](https://github.com/HeadBangeeeeerrrrr/lab2-markdown-syntax)
++ [Lab2-markdown-syntax](https://github.com/HeadBangeeeeerrrrr/lab2-markdown-syntax)
