@@ -13,3 +13,7 @@
 + [Lab2-intro](https://github.com/HeadBangeeeeerrrrr/lab2-intro)
 
 + [Lab2-markdown-syntax](https://github.com/HeadBangeeeeerrrrr/lab2-markdown-syntax)
+
+## Лабораторная работа № 3
+
+[Ссылка на отчет](https://disk.yandex.ru/d/D73RPSrfX01FMg)

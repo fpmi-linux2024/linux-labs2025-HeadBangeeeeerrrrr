@@ -1,0 +1,981 @@
+Script started on 2025-03-02 16:04:51+03:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
+[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ sudo useradd -e 2025-06-01 -f 3 friend
+[?2004l[sudo] пароль для user: 
+[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ sudo adduser visitor
+[?2004lДобавляется пользователь «visitor» ...
+Добавляется новая группа «visitor» (1002) ...
+Добавляется новый пользователь «visitor» (1002) в группу «visitor» ...
+Домашний каталог «/home/visitor» уже существует. Не копируется из «/etc/skel».
+Новый пароль: 
+Повторите ввод нового пароля: 
+passwd: пароль успешно обновлён
+Изменение информации о пользователе visitor
+Введите новое значение или нажмите ENTER для выбора значения по умолчанию
+	Полное имя []: visitor
+	Номер комнаты []: -
+	Рабочий телефон []: -
+	Домашний телефон []: -
+	Другое []: Li ab3Linux
+Данная информация корректна? [Y/n] y
+[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ echo frien"frien[C[C[C[Cdn[C[K[Kd[Knd:banana2005" | sudo chpasswd 
+[?2004l[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ su - friend
+[?2004lПароль: 
+su: warning: cannot change directory to /home/friend: No such file or directory
+$ passwd
+Changing password for friend.
+Current password: 
+New password: 
+Retype new password: 
+passwd: password updated successfully
+$ exit
+[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ sudo chage -E 2025-08-14 friend
+[?2004l[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ sudo chfn friend
+[?2004lИзменение информации о пользователе friend
+Введите новое значение или нажмите ENTER для выбора значения по умолчанию
+	Полное имя []: friend
+	Номер комнаты []: -
+	Рабочий телефон []: -
+	Домашний телефон []: -
+	Другое []: Lan b3Linux
+[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ sudo usermod -l guesr[Kt friend
+[?2004l[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ sudo usermod -d /home/guest guest
+[?2004l[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ sudo groupall[K[Kdd guests
+[?2004l[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ sudo usermod -aG guests gur[Kest
+[?2004l[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ sudo gpasswd -A guest guests
+[?2004l[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ sudo [K[K[K[K[Ksudo adduser student
+[?2004lДобавляется пользователь «student» ...
+Добавляется новая группа «student» (1004) ...
+Добавляется новый пользователь «student» (1003) в группу «student» ...
+Создаётся домашний каталог «/home/student» ...
+Копирование файлов из «/etc/skel» ...
+Новый пароль: 
+Повторите ввод нового пароля: 
+passwd: пароль успешно обновлён
+Изменение информации о пользователе student
+Введите новое значение или нажмите ENTER для выбора значения по умолчанию
+	Полное имя []: stub dent
+	Номер комнаты []: -
+	Рабочий телефон []: -
+	Домашний телефон []: -
+	Другое []: Lab2Linux^[[D^[[D              2 3linux
+Данная информация корректна? [Y/n] y
+[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ sudo usermon[Kd -aG guests student 
+[?2004l[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ sudo grouo[Kpmod -n friends guests
+[?2004l[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ sudo groupdel friends
+[?2004l[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ sod[K[Kduo[K[K[Kudo usr[Kerdel guest
+[?2004l[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ sudo cat /etc/sh
+shadow   shadow-  shells   
+]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ sudo cat /etc/shadow
+[?2004lroot:$y$j9T$.elc/F1KH8Y7Qmzic2q3X.$EU/IpoQJB/GVV.xjiP2PEroOP8WHEm6lgoqhRbM3nv0:20149:0:99999:7:::
+daemon:*:19773:0:99999:7:::
+bin:*:19773:0:99999:7:::
+sys:*:19773:0:99999:7:::
+sync:*:19773:0:99999:7:::
+games:*:19773:0:99999:7:::
+man:*:19773:0:99999:7:::
+lp:*:19773:0:99999:7:::
+mail:*:19773:0:99999:7:::
+news:*:19773:0:99999:7:::
+uucp:*:19773:0:99999:7:::
+proxy:*:19773:0:99999:7:::
+www-data:*:19773:0:99999:7:::
+backup:*:19773:0:99999:7:::
+list:*:19773:0:99999:7:::
+irc:*:19773:0:99999:7:::
+gnats:*:19773:0:99999:7:::
+nobody:*:19773:0:99999:7:::
+systemd-network:*:19773:0:99999:7:::
+systemd-resolve:*:19773:0:99999:7:::
+messagebus:*:19773:0:99999:7:::
+systemd-timesync:*:19773:0:99999:7:::
+syslog:*:19773:0:99999:7:::
+_apt:*:19773:0:99999:7:::
+tss:*:19773:0:99999:7:::
+uuidd:*:19773:0:99999:7:::
+systemd-oom:*:19773:0:99999:7:::
+tcpdump:*:19773:0:99999:7:::
+avahi-autoipd:*:19773:0:99999:7:::
+usbmux:*:19773:0:99999:7:::
+dnsmasq:*:19773:0:99999:7:::
+kernoops:*:19773:0:99999:7:::
+avahi:*:19773:0:99999:7:::
+cups-pk-helper:*:19773:0:99999:7:::
+rtkit:*:19773:0:99999:7:::
+whoopsie:*:19773:0:99999:7:::
+sssd:*:19773:0:99999:7:::
+speech-dispatcher:!:19773:0:99999:7:::
+fwupd-refresh:*:19773:0:99999:7:::
+nm-openvpn:*:19773:0:99999:7:::
+saned:*:19773:0:99999:7:::
+colord:*:19773:0:99999:7:::
+geoclue:*:19773:0:99999:7:::
+pulse:*:19773:0:99999:7:::
+gnome-initial-setup:*:19773:0:99999:7:::
+hplip:*:19773:0:99999:7:::
+gdm:*:19773:0:99999:7:::
+user:$y$j9T$oH9nrRcCePwN6DgQgKa8k.$o76pCdTDV2Ae7YNEXzjK4EMCTnT296FPxZxisXTfWg1:20149:0:99999:7:::
+visitor:$y$j9T$UhJmf02b0sXXbi7cO5rFd/$NUPnlHJbDoX2c5AbaqfhwfuIzwJoviqRRi9TBQR9Zm0:20149:0:99999:7:::
+student:$y$j9T$rfrNdZlcopFMnHgXJBY/2.$.fBAxv7sLu2OoRx9A8PAz/c2nrAx68A54fV86gRaejD:20149:0:99999:7:::
+[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ sudo cat /etc/shadow[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ksudo useradd -s /usr/[K/sbin/nologin -d /home/nouser -u 2000 test1
+[?2004l[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ sudo adduser test2
+[?2004lДобавляется пользователь «test2» ...
+Добавляется новая группа «test2» (1003) ...
+Добавляется новый пользователь «test2» (1001) в группу «test2» ...
+Создаётся домашний каталог «/home/test2» ...
+Копирование файлов из «/etc/skel» ...
+Новый пароль: 
+Повторите ввод нового пароля: 
+passwd: пароль успешно обновлён
+Изменение информации о пользователе test2
+Введите новое значение или нажмите ENTER для выбора значения по умолчанию
+	Полное имя []: test2
+	Номер комнаты []: -
+	Рабочий телефон []: -
+	Домашний телефон []: -
+	Другое []: Lab2 3Linux
+Данная информация корректна? [Y/n] y
+[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ sudo ls -la //[Khome/test2
+[?2004lитого 20
+drwxr-x--- 2 test2 test2 4096 мар  2 16:14 .
+drwxr-xr-x 6 root  root  4096 мар  2 16:14 ..
+-rw-r--r-- 1 test2 test2  220 мар  2 16:14 .bash_logout
+-rw-r--r-- 1 test2 test2 3771 мар  2 16:14 .bashrc
+-rw-r--r-- 1 test2 test2  807 мар  2 16:14 .profile
+[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ sudo usermod -l test3 test2
+[?2004l[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ sudo userdel test3
+[?2004l[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ cat /etc/login.defs 
+[?2004l#
+# /etc/login.defs - Configuration control definitions for the login package.
+#
+# Three items must be defined:  MAIL_DIR, ENV_SUPATH, and ENV_PATH.
+# If unspecified, some arbitrary (and possibly incorrect) value will
+# be assumed.  All other items are optional - if not specified then
+# the described action or option will be inhibited.
+#
+# Comment lines (lines beginning with "#") and blank lines are ignored.
+#
+# Modified for Linux.  --marekm
+
+# REQUIRED for useradd/userdel/usermod
+#   Directory where mailboxes reside, _or_ name of file, relative to the
+#   home directory.  If you _do_ define MAIL_DIR and MAIL_FILE,
+#   MAIL_DIR takes precedence.
+#
+#   Essentially:
+#      - MAIL_DIR defines the location of users mail spool files
+#        (for mbox use) by appending the username to MAIL_DIR as defined
+#        below.
+#      - MAIL_FILE defines the location of the users mail spool files as the
+#        fully-qualified filename obtained by prepending the user home
+#        directory before $MAIL_FILE
+#
+# NOTE: This is no more used for setting up users MAIL environment variable
+#       which is, starting from shadow 4.0.12-1 in Debian, entirely the
+#       job of the pam_mail PAM modules
+#       See default PAM configuration files provided for
+#       login, su, etc.
+#
+# This is a temporary situation: setting these variables will soon
+# move to /etc/default/useradd and the variables will then be
+# no more supported
+MAIL_DIR        /var/mail
+#MAIL_FILE      .mail
+
+#
+# Enable logging and display of /var/log/faillog login failure info.
+# This option conflicts with the pam_tally PAM module.
+#
+FAILLOG_ENAB		yes
+
+#
+# Enable display of unknown usernames when login failures are recorded.
+#
+# WARNING: Unknown usernames may become world readable. 
+# See #290803 and #298773 for details about how this could become a security
+# concern
+LOG_UNKFAIL_ENAB	no
+
+#
+# Enable logging of successful logins
+#
+LOG_OK_LOGINS		no
+
+#
+# Enable "syslog" logging of su activity - in addition to sulog file logging.
+# SYSLOG_SG_ENAB does the same for newgrp and sg.
+#
+SYSLOG_SU_ENAB		yes
+SYSLOG_SG_ENAB		yes
+
+#
+# If defined, all su activity is logged to this file.
+#
+#SULOG_FILE	/var/log/sulog
+
+#
+# If defined, file which maps tty line to TERM environment parameter.
+# Each line of the file is in a format something like "vt100  tty01".
+#
+#TTYTYPE_FILE	/etc/ttytype
+
+#
+# If defined, login failures will be logged here in a utmp format
+# last, when invoked as lastb, will read /var/log/btmp, so...
+#
+FTMP_FILE	/var/log/btmp
+
+#
+# If defined, the command name to display when running "su -".  For
+# example, if this is defined as "su" then a "ps" will display the
+# command is "-su".  If not defined, then "ps" would display the
+# name of the shell actually being run, e.g. something like "-sh".
+#
+SU_NAME		su
+
+#
+# If defined, file which inhibits all the usual chatter during the login
+# sequence.  If a full pathname, then hushed mode will be enabled if the
+# user's name or shell are found in the file.  If not a full pathname, then
+# hushed mode will be enabled if the file exists in the user's home directory.
+#
+HUSHLOGIN_FILE	.hushlogin
+#HUSHLOGIN_FILE	/etc/hushlogins
+
+#
+# *REQUIRED*  The default PATH settings, for superuser and normal users.
+#
+# (they are minimal, add the rest in the shell startup files)
+ENV_SUPATH	PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+ENV_PATH	PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+
+#
+# Terminal permissions
+#
+#	TTYGROUP	Login tty will be assigned this group ownership.
+#	TTYPERM		Login tty will be set to this permission.
+#
+# If you have a "write" program which is "setgid" to a special group
+# which owns the terminals, define TTYGROUP to the group number and
+# TTYPERM to 0620.  Otherwise leave TTYGROUP commented out and assign
+# TTYPERM to either 622 or 600.
+#
+# In Debian /usr/bin/bsd-write or similar programs are setgid tty
+# However, the default and recommended value for TTYPERM is still 0600
+# to not allow anyone to write to anyone else console or terminal
+
+# Users can still allow other people to write them by issuing 
+# the "mesg y" command.
+
+TTYGROUP	tty
+TTYPERM		0600
+
+#
+# Login configuration initializations:
+#
+#	ERASECHAR	Terminal ERASE character ('\010' = backspace).
+#	KILLCHAR	Terminal KILL character ('\025' = CTRL/U).
+#	UMASK		Default "umask" value.
+#
+# The ERASECHAR and KILLCHAR are used only on System V machines.
+# 
+# UMASK is the default umask value for pam_umask and is used by
+# useradd and newusers to set the mode of the new home directories.
+# 022 is the "historical" value in Debian for UMASK
+# 027, or even 077, could be considered better for privacy
+# There is no One True Answer here : each sysadmin must make up his/her
+# mind.
+#
+# If USERGROUPS_ENAB is set to "yes", that will modify this UMASK default value
+# for private user groups, i. e. the uid is the same as gid, and username is
+# the same as the primary group name: for these, the user permissions will be
+# used as group permissions, e. g. 022 will become 002.
+#
+# Prefix these values with "0" to get octal, "0x" to get hexadecimal.
+#
+ERASECHAR	0177
+KILLCHAR	025
+UMASK		022
+
+# HOME_MODE is used by useradd(8) and newusers(8) to set the mode for new
+# home directories.
+# If HOME_MODE is not set, the value of UMASK is used to create the mode.
+HOME_MODE	0750
+
+#
+# Password aging controls:
+#
+#	PASS_MAX_DAYS	Maximum number of days a password may be used.
+#	PASS_MIN_DAYS	Minimum number of days allowed between password changes.
+#	PASS_WARN_AGE	Number of days warning given before a password expires.
+#
+PASS_MAX_DAYS	99999
+PASS_MIN_DAYS	0
+PASS_WARN_AGE	7
+
+#
+# Min/max values for automatic uid selection in useradd
+#
+UID_MIN			 1000
+UID_MAX			60000
+# System accounts
+#SYS_UID_MIN		  100
+#SYS_UID_MAX		  999
+
+#
+# Min/max values for automatic gid selection in groupadd
+#
+GID_MIN			 1000
+GID_MAX			60000
+# System accounts
+#SYS_GID_MIN		  100
+#SYS_GID_MAX		  999
+
+#
+# Max number of login retries if password is bad. This will most likely be
+# overriden by PAM, since the default pam_unix module has it's own built
+# in of 3 retries. However, this is a safe fallback in case you are using
+# an authentication module that does not enforce PAM_MAXTRIES.
+#
+LOGIN_RETRIES		5
+
+#
+# Max time in seconds for login
+#
+LOGIN_TIMEOUT		60
+
+#
+# Which fields may be changed by regular users using chfn - use
+# any combination of letters "frwh" (full name, room number, work
+# phone, home phone).  If not defined, no changes are allowed.
+# For backward compatibility, "yes" = "rwh" and "no" = "frwh".
+# 
+CHFN_RESTRICT		rwh
+
+#
+# Should login be allowed if we can't cd to the home directory?
+# Default in no.
+#
+DEFAULT_HOME	yes
+
+#
+# If defined, this command is run when removing a user.
+# It should remove any at/cron/print jobs etc. owned by
+# the user to be removed (passed as the first argument).
+#
+#USERDEL_CMD	/usr/sbin/userdel_local
+
+#
+# Enable setting of the umask group bits to be the same as owner bits
+# (examples: 022 -> 002, 077 -> 007) for non-root users, if the uid is
+# the same as gid, and username is the same as the primary group name.
+#
+# If set to yes, userdel will remove the user's group if it contains no
+# more members, and useradd will create by default a group with the name
+# of the user.
+#
+USERGROUPS_ENAB yes
+
+#
+# Instead of the real user shell, the program specified by this parameter
+# will be launched, although its visible name (argv[0]) will be the shell's.
+# The program may do whatever it wants (logging, additional authentification,
+# banner, ...) before running the actual shell.
+#
+# FAKE_SHELL /bin/fakeshell
+
+#
+# If defined, either full pathname of a file containing device names or
+# a ":" delimited list of device names.  Root logins will be allowed only
+# upon these devices.
+#
+# This variable is used by login and su.
+#
+#CONSOLE	/etc/consoles
+#CONSOLE	console:tty01:tty02:tty03:tty04
+
+#
+# List of groups to add to the user's supplementary group set
+# when logging in on the console (as determined by the CONSOLE
+# setting).  Default is none.
+#
+# Use with caution - it is possible for users to gain permanent
+# access to these groups, even when not logged in on the console.
+# How to do it is left as an exercise for the reader...
+#
+# This variable is used by login and su.
+#
+#CONSOLE_GROUPS		floppy:audio:cdrom
+
+#
+# If set to "yes", new passwords will be encrypted using the MD5-based
+# algorithm compatible with the one used by recent releases of FreeBSD.
+# It supports passwords of unlimited length and longer salt strings.
+# Set to "no" if you need to copy encrypted passwords to other systems
+# which don't understand the new algorithm.  Default is "no".
+#
+# This variable is deprecated. You should use ENCRYPT_METHOD.
+#
+#MD5_CRYPT_ENAB	no
+
+#
+# If set to MD5 , MD5-based algorithm will be used for encrypting password
+# If set to SHA256, SHA256-based algorithm will be used for encrypting password
+# If set to SHA512, SHA512-based algorithm will be used for encrypting password
+# If set to DES, DES-based algorithm will be used for encrypting password (default)
+# Overrides the MD5_CRYPT_ENAB option
+#
+# Note: It is recommended to use a value consistent with
+# the PAM modules configuration.
+#
+ENCRYPT_METHOD SHA512
+
+#
+# Only used if ENCRYPT_METHOD is set to SHA256 or SHA512.
+#
+# Define the number of SHA rounds.
+# With a lot of rounds, it is more difficult to brute forcing the password.
+# But note also that it more CPU resources will be needed to authenticate
+# users.
+#
+# If not specified, the libc will choose the default number of rounds (5000).
+# The values must be inside the 1000-999999999 range.
+# If only one of the MIN or MAX values is set, then this value will be used.
+# If MIN > MAX, the highest value will be used.
+#
+# SHA_CRYPT_MIN_ROUNDS 5000
+# SHA_CRYPT_MAX_ROUNDS 5000
+
+################# OBSOLETED BY PAM ##############
+#						#
+# These options are now handled by PAM. Please	#
+# edit the appropriate file in /etc/pam.d/ to	#
+# enable the equivelants of them.
+#
+###############
+
+#MOTD_FILE
+#DIALUPS_CHECK_ENAB
+#LASTLOG_ENAB
+#MAIL_CHECK_ENAB
+#OBSCURE_CHECKS_ENAB
+#PORTTIME_CHECKS_ENAB
+#SU_WHEEL_ONLY
+#CRACKLIB_DICTPATH
+#PASS_CHANGE_TRIES
+#PASS_ALWAYS_WARN
+#ENVIRON_FILE
+#NOLOGINS_FILE
+#ISSUE_FILE
+#PASS_MIN_LEN
+#PASS_MAX_LEN
+#ULIMIT
+#ENV_HZ
+#CHFN_AUTH
+#CHSH_AUTH
+#FAIL_DELAY
+
+################# OBSOLETED #######################
+#						  #
+# These options are no more handled by shadow.    #
+#                                                 #
+# Shadow utilities will display a warning if they #
+# still appear.                                   #
+#                                                 #
+###################################################
+
+# CLOSE_SESSIONS
+# LOGIN_STRING
+# NO_PASSWORD_CONSOLE
+# QMAIL_DIR
+
+
+
+[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ sudo adduser test4
+[?2004lДобавляется пользователь «test4» ...
+Добавляется новая группа «test4» (1005) ...
+Добавляется новый пользователь «test4» (1001) в группу «test4» ...
+Создаётся домашний каталог «/home/test4» ...
+Копирование файлов из «/etc/skel» ...
+Новый пароль: 
+Повторите ввод нового пароля: 
+passwd: пароль успешно обновлён
+Изменение информации о пользователе test4
+Введите новое значение или нажмите ENTER для выбора значения по умолчанию
+	Полное имя []: test4
+	Номер комнаты []: -
+	Рабочий телефон []: -
+	Домашний телефон []: -
+	Другое []: Lab3Linux
+Данная информация корректна? [Y/n] y
+[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ sudo nano /etc/shadow
+[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ Чтение… ](B[m[22;29H(B[0;7m[ Прочитано 52 строки ](B[m[H(B[0;7m  GNU nano 6.2                       /etc/shadow                                [1;79H(B[m[23d(B[0;7m^G(B[m Справка   (B[0;7m^O(B[m Записать  (B[0;7m^W(B[m Поиск     (B[0;7m^K(B[m Вырезать  (B[0;7m^T(B[m Выполнить (B[0;7m^C(B[m Позиция[24d(B[0;7m^X(B[m Выход     (B[0;7m^R(B[m ЧитФайл   (B[0;7m^\(B[m Замена    (B[0;7m^U(B[m Вставить  (B[0;7m^J(B[m Выровнять (B[0;7m^/(B[m К строке[2droot:$y$j9T$.elc/F1KH8Y7Qmzic2q3X.$EU/IpoQJB/GVV.xjiP2PEroOP8WHEm6lgoqhRbM3nv0:(B[0;7m>[3;1H(B[mdaemon:*:19773:0:99999:7:::[4dbin:*:19773:0:99999:7:::[5dsys:*:19773:0:99999:7:::[6dsync:*:19773:0:99999:7:::[7dgames:*:19773:0:99999:7:::[8dman:*:19773:0:99999:7:::[9dlp:*:19773:0:99999:7:::[10dmail:*:19773:0:99999:7:::[11dnews:*:19773:0:99999:7:::[12duucp:*:19773:0:99999:7:::[13dproxy:*:19773:0:99999:7:::[14dwww-data:*:19773:0:99999:7:::[15dbackup:*:19773:0:99999:7:::[16dlist:*:19773:0:99999:7:::[17dirc:*:19773:0:99999:7:::[18dgnats:*:19773:0:99999:7:::[19dnobody:*:19773:0:99999:7:::[20dsystemd-network:*:19773:0:99999:7:::[21dsystemd-resolve:*:19773:0:99999:7:::[2d[?12l[?25h[?25l[?12l[?25h[5d[?25l[?12l[?25h[8d[?25l[?12l[?25h[11d[?25l[?12l[?25h[14d[?25l[?12l[?25h[17d[?25l[?12l[?25h[20d[?25l[22d[K[?12l[?25h7[2;22r8[2S[1;24r[20;1Hmessagebus:*:19773:0:99999:7:::[21dsystemd-timesync:*:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1Hsyslog:*:19773:0:99999:7:::[20d_apt:*:19773:0:99999:7:::[21dtss:*:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1Huuidd:*:19773:0:99999:7:::[20dsystemd-oom:*:19773:0:99999:7:::[21dtcpdump:*:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1Havahi-autoipd:*:19773:0:99999:7:::[20dusbmux:*:19773:0:99999:7:::[21ddnsmasq:*:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1Hkernoops:*:19773:0:99999:7:::[20davahi:*:19773:0:99999:7:::[21dcups-pk-helper:*:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1Hrtkit:*:19773:0:99999:7:::[20dwhoopsie:*:19773:0:99999:7:::[21dsssd:*:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1Hspeech-dispatcher:!:19773:0:99999:7:::[20dfwupd-refresh:*:19773:0:99999:7:::[21dnm-openvpn:*:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1Hsaned:*:19773:0:99999:7:::[20dcolord:*:19773:0:99999:7:::[21dgeoclue:*:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1Hpulse:*:19773:0:99999:7:::[20dgnome-initial-setup:*:19773:0:99999:7:::[21dhplip:*:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1Hgdm:*:19773:0:99999:7:::[20duser:$y$j9T$oH9nrRcCePwN6DgQgKa8k.$o76pCdTDV2Ae7YNEXzjK4EMCTnT296FPxZxisXTfWg1:(B[0;7m>[21;1H(B[mvisitor:$y$j9T$UhJmf02b0sXXbi7cO5rFd/$NUPnlHJbDoX2c5AbaqfhwfuIzwJoviqRRi9TBQR9Z(B[0;7m>[21;1H(B[m[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1Hstudent:$y$j9T$rfrNdZlcopFMnHgXJBY/2.$.fBAxv7sLu2OoRx9A8PAz/c2nrAx68A54fV86gRae(B[0;7m>[20;1H(B[mtest1:!:20149:0:99999:7:::[21dtest4:$y$j9T$gw8z95ZXX4ZUp8r8TPpiv.$se35R0OC7lCPdP9wzFrpizAm4g.uCxXDqT8QcBIrHY7(B[0;7m>[21;1H(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25hs[?25l[?12l[?25ht[?25l[?12l[?25hu[?25l[?12l[?25hd[?25l[?12l[?25he[?25l[?12l[?25hn[?25l[?12l[?25ht[?25l[?12l[?25h:[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[16d[?25l[?12l[?25hj[?25l[?12l[?25h9[?25l[?12l[?25hT[?25l[?12l[?25h$[?25l[?12l[?25ho[?25l[?12l[?25hH[?25l[?12l[?25h9[?25l[?12l[?25hn[?25l[?12l[?25hr[?25l[?12l[?25hR[?25l[?12l[?25hc[?25l[?12l[?25hC[?25l[?12l[?25he[?25l[?12l[?25hP[?25l[?12l[?25hw[?25l[?12l[?25hN[?25l[?12l[?25h6[?25l[?12l[?25hD[?25l[?12l[?25hg[?25l[?12l[?25hQ[?25l[?12l[?25hg[?25l[?12l[?25hK[?25l[?12l[?25ha[?25l[?12l[?25h8[?25l[?12l[?25hk[?25l[?12l[?25h.[?25l[?12l[?25h$[?25l[?12l[?25ho[?25l[?12l[?25h7[?25l[?12l[?25h6[?25l[?12l[?25hp[?25l[?12l[?25hC[?25l[?12l[?25hd[?25l[?12l[?25hT[?25l[?12l[?25hD[?25l[?12l[?25hV[?25l[?12l[?25h2[?25l[?12l[?25hA[?25l[?12l[?25he[?25l[?12l[?25h7[?25l[?12l[?25hY[?25l[?12l[?25hN[?25l[?12l[?25hE[?25l[?12l[?25hX[?25l[?12l[?25hz[?25l[?12l[?25hj[?25l[?12l[?25hK[?25l[?12l[?25h4[?25l[?12l[?25hE[?25l[?12l[?25hM[?25l[?12l[?25hC[?25l[?12l[?25hT[?25l[?12l[?25hn[?25l[?12l[?25hT[?25l[?12l[?25h2[?25l[?12l[?25h9[?25l[?12l[?25h6[?25l[?12l[?25hF[?25l[?12l[?25hP[?25l[?12l[?25hx[?25l[?12l[?25hZ[?25l[?12l[?25hx[?25l[?12l[?25hi[?25l[?12l[?25hs[?25l[?12l[?25hX[?25l[?12l[?25hT[?25l[?12l[?25hf[?25l[?12l[?25hW[?25l[?12l[?25hg[?25l[?12l[?25h(B[0;7m<(B[mTfWg1:20149:0:99999:7:::[K[7G[?25l[?12l[?25huser:$y$j9T$oH9nrRcCePwN6DgQgKa8k.$o76pCdTDV2Ae7YNEXzjK4EMCTnT296FPxZxisXTfWg1:(B[0;7m>[16;78H(B[m[?25l[?12l[?25h(B[0;7m<(B[mTfWg1:20149:0:99999:7:::[K[7G[?25l[?12l[?25huser:$y$j9T$oH9nrRcCePwN6DgQgKa8k.$o76pCdTDV2Ae7YNEXzjK4EMCTnT296FPxZxisXTfWg1:(B[0;7m>[17;1H<(B[mTBQR9Zm0:20149:0:99999:7:::[K[7G[?25l[?12l[?25hvisitor:$y$j9T$UhJmf02b0sXXbi7cO5rFd/$NUPnlHJbDoX2c5AbaqfhwfuIzwJoviqRRi9TBQR9Z(B[0;7m>[17;78H(B[m[?25l[?12l[?25h(B[0;7m<(B[mTBQR9Zm0:20149:0:99999:7:::[K[7G[?25l[?12l[?25hvisitor:$y$j9T$UhJmf02b0sXXbi7cO5rFd/$NUPnlHJbDoX2c5AbaqfhwfuIzwJoviqRRi9TBQR9Z(B[0;7m>[18;1H<(B[m86gRaejD:20149:0:99999:7:::[K[7G[?25l[?12l[?25hstudent:$y$j9T$rfrNdZlcopFMnHgXJBY/2.$.fBAxv7sLu2OoRx9A8PAz/c2nrAx68A54fV86gRae(B[0;7m>[18;78H(B[m[?25l[?12l[?25h(B[0;7m<(B[m86gRaejD:20149:0:99999:7:::[K[7G[?25l[?12l[?25hstudent:$y$j9T$rfrNdZlcopFMnHgXJBY/2.$.fBAxv7sLu2OoRx9A8PAz/c2nrAx68A54fV86gRae(B[0;7m>[19;27H(B[m[?25l[?12l[?25h[?25l[?12l[?25h[20d[?25l[?12l[?25hp[?25l[?12l[?25h8[?25l[?12l[?25hr[?25l[?12l[?25h8[?25l[?12l[?25hT[?25l[?12l[?25hP[?25l[?12l[?25hp[?25l[?12l[?25hi[?25l[?12l[?25hv[?25l[?12l[?25h.[?25l[?12l[?25h$[?25l[?12l[?25hs[?25l[?12l[?25he[?25l[?12l[?25h3[?25l[?12l[?25h5[?25l[?12l[?25hR[?25l[?12l[?25h0[?25l[?12l[?25hO[?25l[?12l[?25hC[?25l[?12l[?25h7[?25l[?12l[?25hl[?25l[?12l[?25hC[?25l[?12l[?25hP[?25l[?12l[?25hd[?25l[?12l[?25hP[?25l[?12l[?25h9[?25l[?12l[?25hw[?25l[?12l[?25hz[?25l[?12l[?25hF[?25l[?12l[?25hr[?25l[?12l[?25hp[?25l[?12l[?25hi[?25l[?12l[?25hz[?25l[?12l[?25hA[?25l[?12l[?25hm[?25l[?12l[?25h4[?25l[?12l[?25hg[?25l[?12l[?25h.[?25l[?12l[?25hu[?25l[?12l[?25hC[?25l[?12l[?25hx[?25l[?12l[?25hX[?25l[?12l[?25hD[?25l[?12l[?25hq[?25l[?12l[?25hT[?25l[?12l[?25h8[?25l[?12l[?25hQ[?25l[?12l[?25hc[?25l[?12l[?25hB[?25l[?12l[?25hI[?25l[?12l[?25hr[?25l[?12l[?25hH[?25l[?12l[?25h(B[0;7m<(B[mBIrHY7:20149:0:99999:7:::[K[7G[?25l[?12l[?25htest4:$y$j9T$gw8z95ZXX4ZUp8r8TPpiv.$se35R0OC7lCPdP9wzFrpizAm4g.uCxXDqT8QcBIrHY7(B[0;7m>[20;78H(B[m[?25l[?12l[?25h(B[0;7m<(B[mBIrHY7:20149:0:99999:7:::[K[7G[?25l[23d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ a[Ksudo chage -E 2025-12-31 test4
+[?2004l[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ sudo chage -E 2025-12-31 test4[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pnano /etc/shadow
+[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ Чтение… ](B[m[22;29H(B[0;7m[ Прочитано 52 строки ](B[m[H(B[0;7m  GNU nano 6.2                       /etc/shadow                                [1;79H(B[m[23d(B[0;7m^G(B[m Справка   (B[0;7m^O(B[m Записать  (B[0;7m^W(B[m Поиск     (B[0;7m^K(B[m Вырезать  (B[0;7m^T(B[m Выполнить (B[0;7m^C(B[m Позиция[24d(B[0;7m^X(B[m Выход     (B[0;7m^R(B[m ЧитФайл   (B[0;7m^\(B[m Замена    (B[0;7m^U(B[m Вставить  (B[0;7m^J(B[m Выровнять (B[0;7m^/(B[m К строке[2droot:$y$j9T$.elc/F1KH8Y7Qmzic2q3X.$EU/IpoQJB/GVV.xjiP2PEroOP8WHEm6lgoqhRbM3nv0:(B[0;7m>[3;1H(B[mdaemon:*:19773:0:99999:7:::[4dbin:*:19773:0:99999:7:::[5dsys:*:19773:0:99999:7:::[6dsync:*:19773:0:99999:7:::[7dgames:*:19773:0:99999:7:::[8dman:*:19773:0:99999:7:::[9dlp:*:19773:0:99999:7:::[10dmail:*:19773:0:99999:7:::[11dnews:*:19773:0:99999:7:::[12duucp:*:19773:0:99999:7:::[13dproxy:*:19773:0:99999:7:::[14dwww-data:*:19773:0:99999:7:::[15dbackup:*:19773:0:99999:7:::[16dlist:*:19773:0:99999:7:::[17dirc:*:19773:0:99999:7:::[18dgnats:*:19773:0:99999:7:::[19dnobody:*:19773:0:99999:7:::[20dsystemd-network:*:19773:0:99999:7:::[21dsystemd-resolve:*:19773:0:99999:7:::[2d[?12l[?25h[?25l[?12l[?25h[5d[?25l[?12l[?25h[8d[?25l[?12l[?25h[11d[?25l[?12l[?25h[14d[?25l[?12l[?25h[17d[?25l[?12l[?25h[20d[?25l[22d[K[?12l[?25h7[2;22r8[2S[1;24r[20;1Hmessagebus:*:19773:0:99999:7:::[21dsystemd-timesync:*:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1Hsyslog:*:19773:0:99999:7:::[20d_apt:*:19773:0:99999:7:::[21dtss:*:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1Huuidd:*:19773:0:99999:7:::[20dsystemd-oom:*:19773:0:99999:7:::[21dtcpdump:*:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1Havahi-autoipd:*:19773:0:99999:7:::[20dusbmux:*:19773:0:99999:7:::[21ddnsmasq:*:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1Hkernoops:*:19773:0:99999:7:::[20davahi:*:19773:0:99999:7:::[21dcups-pk-helper:*:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1Hrtkit:*:19773:0:99999:7:::[20dwhoopsie:*:19773:0:99999:7:::[21dsssd:*:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1Hspeech-dispatcher:!:19773:0:99999:7:::[20dfwupd-refresh:*:19773:0:99999:7:::[21dnm-openvpn:*:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1Hsaned:*:19773:0:99999:7:::[20dcolord:*:19773:0:99999:7:::[21dgeoclue:*:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1Hpulse:*:19773:0:99999:7:::[20dgnome-initial-setup:*:19773:0:99999:7:::[21dhplip:*:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1Hgdm:*:19773:0:99999:7:::[20duser:$y$j9T$oH9nrRcCePwN6DgQgKa8k.$o76pCdTDV2Ae7YNEXzjK4EMCTnT296FPxZxisXTfWg1:(B[0;7m>[21;1H(B[mvisitor:$y$j9T$UhJmf02b0sXXbi7cO5rFd/$NUPnlHJbDoX2c5AbaqfhwfuIzwJoviqRRi9TBQR9Z(B[0;7m>[21;1H(B[m[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1Hstudent:$y$j9T$rfrNdZlcopFMnHgXJBY/2.$.fBAxv7sLu2OoRx9A8PAz/c2nrAx68A54fV86gRae(B[0;7m>[20;1H(B[mtest1:!:20149:0:99999:7:::[21dtest4:$y$j9T$gw8z95ZXX4ZUp8r8TPpiv.$se35R0OC7lCPdP9wzFrpizAm4g.uCxXDqT8QcBIrHY7(B[0;7m>[21;1H(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25ht[?25l[?12l[?25he[?25l[?12l[?25hs[?25l[?12l[?25ht[?25l[?12l[?25h4[?25l[?12l[?25h:[?25l[?12l[?25h$[?25l[?12l[?25hy[?25l[?12l[?25h$[?25l[?12l[?25hj[?25l[?12l[?25h9[?25l[?12l[?25hT[?25l[?12l[?25h$[?25l[?12l[?25hg[?25l[?12l[?25hw[?25l[?12l[?25h8[?25l[?12l[?25hz[?25l[?12l[?25h9[?25l[?12l[?25h5[?25l[?12l[?25hZ[?25l[?12l[?25hX[?25l[?12l[?25hX[?25l[?12l[?25h4[?25l[?12l[?25hZ[?25l[?12l[?25hU[?25l[?12l[?25hp[?25l[?12l[?25h8[?25l[?12l[?25hr[?25l[?12l[?25h8[?25l[?12l[?25hT[?25l[?12l[?25hP[?25l[?12l[?25hp[?25l[?12l[?25hi[?25l[?12l[?25hv[?25l[?12l[?25h.[?25l[?12l[?25h$[?25l[?12l[?25hs[?25l[?12l[?25he[?25l[?12l[?25h3[?25l[?12l[?25h5[?25l[?12l[?25hR[?25l[?12l[?25h0[?25l[?12l[?25hO[?25l[?12l[?25hC[?25l[?12l[?25h7[?25l[?12l[?25hl[?25l[?12l[?25hC[?25l[?12l[?25hP[?25l[?12l[?25hd[?25l[?12l[?25hP[?25l[?12l[?25h9[?25l[?12l[?25hw[?25l[?12l[?25hz[?25l[?12l[?25hF[?25l[?12l[?25hr[?25l[?12l[?25hp[?25l[?12l[?25hi[?25l[?12l[?25hz[?25l[?12l[?25hA[?25l[?12l[?25hm[?25l[?12l[?25h4[?25l[?12l[?25hg[?25l[?12l[?25h.[?25l[?12l[?25hu[?25l[?12l[?25hC[?25l[?12l[?25hx[?25l[?12l[?25hX[?25l[?12l[?25hD[?25l[?12l[?25hq[?25l[?12l[?25hT[?25l[?12l[?25h8[?25l[?12l[?25hQ[?25l[?12l[?25hc[?25l[?12l[?25hB[?25l[?12l[?25hI[?25l[?12l[?25hr[?25l[?12l[?25hH[?25l[?12l[?25h(B[0;7m<(B[mBIrHY7:20149:0:99999:7::20453:[K[7G[?25l[?12l[?25h7[?25l[?12l[?25h:[?25l[?12l[?25h2[?25l[?12l[?25h0[?25l[?12l[?25h1[?25l[?12l[?25h4[?25l[?12l[?25h9[?25l[?12l[?25h:[?25l[?12l[?25h0[?25l[?12l[?25h:[?25l[?12l[?25h9[?25l[?12l[?25h9[?25l[?12l[?25h9[?25l[?12l[?25h9[?25l[?12l[?25h9[?25l[?12l[?25h:[?25l[?12l[?25h7[?25l[?12l[?25h:[?25l[?12l[?25h:[?25l[?12l[?25h2[?25l[?12l[?25h0[?25l[?12l[?25h[?25l[?12l[?25h0[?25l[?12l[?25h[?25l[?12l[?25h0[?25l[?12l[?25h[?25l[?12l[?25h0[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h2[?25l[?12l[?25h[?25l[?12l[?25h2[?25l[23d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ sudo  pass[K[K[K[K[Kpasswd -d test4
+[?2004lpasswd: информация об истечении срока действия пароля изменена.
+[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ sudo passwd -d test4nano /etc/shadow
+[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ Чтение… ](B[m[22;29H(B[0;7m[ Прочитано 52 строки ](B[m[H(B[0;7m  GNU nano 6.2                       /etc/shadow                                [1;79H(B[m[23d(B[0;7m^G(B[m Справка   (B[0;7m^O(B[m Записать  (B[0;7m^W(B[m Поиск     (B[0;7m^K(B[m Вырезать  (B[0;7m^T(B[m Выполнить (B[0;7m^C(B[m Позиция[24d(B[0;7m^X(B[m Выход     (B[0;7m^R(B[m ЧитФайл   (B[0;7m^\(B[m Замена    (B[0;7m^U(B[m Вставить  (B[0;7m^J(B[m Выровнять (B[0;7m^/(B[m К строке[2droot:$y$j9T$.elc/F1KH8Y7Qmzic2q3X.$EU/IpoQJB/GVV.xjiP2PEroOP8WHEm6lgoqhRbM3nv0:(B[0;7m>[3;1H(B[mdaemon:*:19773:0:99999:7:::[4dbin:*:19773:0:99999:7:::[5dsys:*:19773:0:99999:7:::[6dsync:*:19773:0:99999:7:::[7dgames:*:19773:0:99999:7:::[8dman:*:19773:0:99999:7:::[9dlp:*:19773:0:99999:7:::[10dmail:*:19773:0:99999:7:::[11dnews:*:19773:0:99999:7:::[12duucp:*:19773:0:99999:7:::[13dproxy:*:19773:0:99999:7:::[14dwww-data:*:19773:0:99999:7:::[15dbackup:*:19773:0:99999:7:::[16dlist:*:19773:0:99999:7:::[17dirc:*:19773:0:99999:7:::[18dgnats:*:19773:0:99999:7:::[19dnobody:*:19773:0:99999:7:::[20dsystemd-network:*:19773:0:99999:7:::[21dsystemd-resolve:*:19773:0:99999:7:::[2d[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[22d[K[?12l[?25h7[2;22r8
+[1;24r[21;1Hmessagebus:*:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hsystemd-timesync:*:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hsyslog:*:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H_apt:*:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Htss:*:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Huuidd:*:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hsystemd-oom:*:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Htcpdump:*:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Havahi-autoipd:*:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Husbmux:*:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hdnsmasq:*:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hkernoops:*:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Havahi:*:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hcups-pk-helper:*:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hrtkit:*:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hwhoopsie:*:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hsssd:*:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hspeech-dispatcher:!:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hfwupd-refresh:*:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hnm-openvpn:*:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hsaned:*:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hcolord:*:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hgeoclue:*:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hpulse:*:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hgnome-initial-setup:*:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hhplip:*:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hgdm:*:19773:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Huser:$y$j9T$oH9nrRcCePwN6DgQgKa8k.$o76pCdTDV2Ae7YNEXzjK4EMCTnT296FPxZxisXTfWg1:(B[0;7m>[21;1H(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hvisitor:$y$j9T$UhJmf02b0sXXbi7cO5rFd/$NUPnlHJbDoX2c5AbaqfhwfuIzwJoviqRRi9TBQR9Z(B[0;7m>[21;1H(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hstudent:$y$j9T$rfrNdZlcopFMnHgXJBY/2.$.fBAxv7sLu2OoRx9A8PAz/c2nrAx68A54fV86gRae(B[0;7m>[21;1H(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Htest1:!:20149:0:99999:7:::[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Htest4::20149:0:99999:7::20453:[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25ht[?25l[?12l[?25h[A[?25l[?12l[?25ht[?25l[?12l[?25hu[?25l[?12l[?25hd[?25l[?12l[?25he[?25l[?12l[?25hn[?25l[?12l[?25ht[?25l[?12l[?25h:[?25l[?12l[?25h$[?25l[?12l[?25hy[?25l[?12l[?25h$[?25l[?12l[?25hj[?25l[?12l[?25h9[?25l[?12l[?25hT[?25l[?12l[?25h$[?25l[?12l[?25hr[?25l[?12l[?25hf[?25l[?12l[?25hr[?25l[?12l[?25hN[?25l[?12l[?25hd[?25l[?12l[?25hZ[?25l[?12l[?25hl[?25l[?12l[?25hc[?25l[?12l[?25ho[?25l[?12l[?25hp[?25l[?12l[?25hF[?25l[?12l[?25hM[?25l[?12l[?25hn[?25l[?12l[?25hH[?25l[?12l[?25hg[?25l[?12l[?25hX[?25l[?12l[?25hJ[?25l[?12l[?25h[19;27H[?25l[?12l[?25h[20;31H[?25l[?12l[?25h[21d[?25l[?12l[?25h[20;31H[?25l[23d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ sudo usermod -L test4
+[?2004l[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ sudo groupadd -g 1010 xusers
+[?2004l[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ sudo usermod -aG xusers user
+[?2004l[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ sudo groupmod -n yo[K[K [K y[K[K[K[K[K-n yusers xusers
+[?2004l[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ s[Ksudo nano ~/.bashrc
+[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ Чтение… ](B[m[22;29H(B[0;7m[ Прочитано 117 строк ](B[m[H(B[0;7m  GNU nano 6.2                   /home/user/.bashrc                             [1;79H(B[m[23d(B[0;7m^G(B[m Справка   (B[0;7m^O(B[m Записать  (B[0;7m^W(B[m Поиск     (B[0;7m^K(B[m Вырезать  (B[0;7m^T(B[m Выполнить (B[0;7m^C(B[m Позиция[24d(B[0;7m^X(B[m Выход     (B[0;7m^R(B[m ЧитФайл   (B[0;7m^\(B[m Замена    (B[0;7m^U(B[m Вставить  (B[0;7m^J(B[m Выровнять (B[0;7m^/(B[m К строке[2d[36m# ~/.bashrc: executed by bash(1) for non-login shells.[3d# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)[4d# for examples[6d# If not running interactively, don't do anything[7d[32mcase[39m(B[m (B[0;1m[31m$-[39m(B[m [32min[8;5H[39m(B[m*i*[32m)[39m(B[m [32m;;[9;7H[39m(B[m*[32m)[39m(B[m [32mreturn;;[10desac[12d[36m# don't put duplicate lines or lines starting with space in the history.[13d# See bash(1) for more options[14d[39m(B[mHISTCONTROL[32m=[39m(B[mignoreboth[16d[36m# append to the history file, don't overwrite it[17d[39m(B[mshopt(B[0;1m[35m -s[39m(B[m histappend[19d[36m# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)[20d[39m(B[mHISTSIZE[32m=[39m(B[m1000[21dHISTFILESIZE[32m=[39m(B[m2000[2d[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[22d[K[?12l[?25h7[2;22r8
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# check the window size after each command and, if necessary,[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# update the values of LINES and COLUMNS.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hshopt(B[0;1m[35m -s[39m(B[m checkwinsize[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# If set, the pattern (B[0;1m[33m"**"(B[0m[36m used in a pathname expansion context will[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# match all files and zero or more directories and subdirectories.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#shopt -s globstar[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# make less more friendly for non-text input files, see lesspipe(1)[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[32m[(B[0;1m[35m -x[39m(B[m /usr/bin/lesspipe [32m][39m(B[m [32m&&[39m(B[m [32meval[39m(B[m (B[0;1m[33m"$(SHELL=/bin/sh lesspipe)"[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# set variable identifying the chroot you work in (used in the prompt below)[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[32mif[39m(B[m [32m[(B[0;1m[35m -z[39m(B[m (B[0;1m[33m"${debian_chroot:-}"[39m(B[m [32m][39m(B[m [32m&&[39m(B[m [32m[(B[0;1m[35m -r[39m(B[m /etc/debian_chroot [32m];[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;5Hdebian_chroot[32m=$((B[0;1m[34mcat[39m(B[m /etc/debian_chroot[32m)[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[32mfi[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# set a fancy prompt (non-color, unless we know we (B[0;1m[33m"want"(B[0m[36m color)[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[32mcase[39m(B[m (B[0;1m[33m"$TERM"[39m(B[m [32min[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;5Hxterm-color[32m|[39m(B[m*-256color[32m)[39m(B[m color_prompt[32m=[39m(B[myes[32m;;[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[32mesac[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# uncomment for a colored prompt, if the terminal has the capability; turned[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# off by default to not distract the user: the focus in a terminal window[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# should be on the output of commands, not on the prompt[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#force_color_prompt=yes[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[32mif[39m(B[m [32m[(B[0;1m[35m -n[39m(B[m (B[0;1m[33m"$force_color_prompt"[39m(B[m [32m];[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;5H[32mif[39m(B[m [32m[(B[0;1m[35m -x[39m(B[m /usr/bin/tput [32m][39m(B[m [32m&&[39m(B[m tput setaf 1 [32m>&[39m(B[m/dev/null[32m;[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;8H[36m[1K # We have color support; assume it's compliant with Ecma-48[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;8H[36m[1K # (ISO/IEC-6429). (Lack of such support is extremely rare, and such[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;8H[36m[1K # a case would tend to support setf rather than setaf.)[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;9Hcolor_prompt[32m=[39m(B[myes[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;5H[32melse[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;9Hcolor_prompt[32m=[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;5H[32mfi[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[32mfi[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[32mif[39m(B[m [32m[[39m(B[m (B[0;1m[33m"$color_prompt"[39m(B[m [32m=[39m(B[m yes [32m];[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;5HPS1[32m=(B[0;1m[33m'${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\[39m(B[0;7m>[21;1H(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[32melse[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;5HPS1[32m=(B[0;1m[33m'${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[32mfi[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34munset[39m(B[m color_prompt force_color_prompt[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# If this is an xterm set the title to user@host:dir[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[32mcase[39m(B[m (B[0;1m[33m"$TERM"[39m(B[m [32min[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hxterm*[32m|[39m(B[mrxvt*[32m)[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;5HPS1[32m=(B[0;1m[33m"\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;5H[32m;;[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H*[32m)[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;5H[32m;;[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[32mesac[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# enable color support of ls and also add handy aliases[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[32mif[39m(B[m [32m[(B[0;1m[35m -x[39m(B[m /usr/bin/dircolors [32m];[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;5Htest(B[0;1m[35m -r[39m(B[m ~/.dircolors [32m&&[39m(B[m [32meval[39m(B[m (B[0;1m[33m"$(dircolors -b ~/.dircolors)"[39m(B[m [32m||[39m(B[m [32meval[39m(B[m (B[0;1m[33m"$(dirc[39m(B[0;7m>[21;1H(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;5Halias ls[32m=(B[0;1m[33m'ls --color=auto'[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;4H[36m #alias dir=(B[0;1m[33m'dir --color=auto'[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;4H[36m #alias vdir=(B[0;1m[33m'vdir --color=auto'[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;5Halias (B[0;1m[34mgrep(B[0m[32m=(B[0;1m[33m'grep --color=auto'[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;5Halias fgrep[32m=(B[0;1m[33m'fgrep --color=auto'[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;5Halias egrep[32m=(B[0;1m[33m'egrep --color=auto'[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[32mfi[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# colored GCC warnings and errors[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#export GCC_COLORS=(B[0;1m[33m'error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:q[39m(B[0;7m>[21;1H(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# some more ls aliases[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Halias ll[32m=(B[0;1m[33m'ls -alF'[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Halias la[32m=(B[0;1m[33m'ls -A'[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Halias l[32m=(B[0;1m[33m'ls -CF'[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# Add an (B[0;1m[33m"alert"(B[0m[36m alias for long running commands.  Use like so:[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#   sleep 10; alert[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Halias alert[32m=(B[0;1m[33m'notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || ech[39m(B[0;7m>[21;1H(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# Alias definitions.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# You may want to put all your additions into a separate file like[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# ~/.bash_aliases, instead of adding them here directly.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# See /usr/share/doc/bash-doc/examples in the bash-doc package.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[32mif[39m(B[m [32m[(B[0;1m[35m -f[39m(B[m ~/.bash_aliases [32m];[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;5H. ~/.bash_aliases[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[32mfi[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# enable programmable completion features (you don't need to enable[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# this, if it's already enabled in /etc/bash.bashrc and /etc/profile[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# sources /etc/bash.bashrc).[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[32mif[39m(B[m [32m![39m(B[m shopt -oq posix[32m;[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;3H[32mif[39m(B[m [32m[(B[0;1m[35m -f[39m(B[m /usr/share/bash-completion/bash_completion [32m];[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;5H. /usr/share/bash-completion/bash_completion[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;3H[32melif[39m(B[m [32m[(B[0;1m[35m -f[39m(B[m /etc/bash_completion [32m];[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;5H. /etc/bash_completion[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;3H[32mfi[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[32mfi[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1;53H(B[0;7m*[79G(B[m[2;22r[22;1H
+[1;24r[21;1H[?12l[?25h[?25l[?12l[?25he[?25l[?12l[?25hc[?25l[?12l[?25hh[?25l[?12l[?25h(B[0;1m[34mecho[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h "[?25l[?12l[?25hW[?25l[?12l[?25he[?25l[?12l[?25hc[?25l[?12l[?25ho[?25l[?12l[?25hm[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[32m;[39m(B[m[?25l[?12l[?25h [?25l[?12l[?25hl[?25l[?12l[?25hc[?25l[?12l[?25ho[?25l[?12l[?25hm[?25l[?12l[?25he[?25l[?12l[?25h?[?25l[?12l[?25h[32m<[39m(B[m[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h?[?25l[?12l[?25h [?25l[?12l[?25h,[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m$[39m(B[m[?25l[?12l[?25h[32m([39m(B[m[?25l[?12l[?25hw[?25l[?12l[?25hh[?25l[?12l[?25ho[?25l[?12l[?25ha[?25l[?12l[?25hm[?25l[?12l[?25hi[?25l[?12l[?25h[32m)[39m(B[m[?25l[?12l[?25h[6G(B[0;1m[33m"Welcome, $(whoami)"[39m(B[m[?25l[?12l[?25h[6G"Welcome, [32m$([39m(B[mwhoami[32m)[39m(B[m[K[?25l[?12l[?25h[32m![39m(B[m[?25l[?12l[?25h[6G(B[0;1m[33m"Welcome, $(whoami)!"[39m(B[m[?25l[22;35H(B[0;7m[ Запись… ](B[m[1;53H(B[0;7m [79G(B[m[22;30H(B[0;7m[ Записано 119 строк ](B[m[?12l[?25h[21;27H[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ echo "auth requiree[Kd pam_listfile.so item=usersense[K[K[K[K[K sense [K=deny file=/et c/denyusers" | sudo tee =a[K[K-a /etc/pam.d?[K\[K/login
+[?2004lauth required pam_listfile.so item=user sense=deny file=/etc/denyusers
+[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ echo "auth required pam_listfile.so item=user sense=deny file=/etc/denyusers" | sudo tee -a /etc/pam.d/login[C[K[K[K[K[Ksshd
+[?2004lauth required pam_listfile.so item=user sense=deny file=/etc/denyusers
+[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ echo 
+[?2004l
+[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ echo '[K"visitor" |s[K so[Kudo tee -a /etc/denyusers
+[?2004lvisitor
+[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ na[K[Ksudo nano /etc/pam.d/login
+[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ Чтение… ](B[m[22;29H(B[0;7m[ Прочитана 101 строка ](B[m[H(B[0;7m  GNU nano 6.2                    /etc/pam.d/login                              [1;79H(B[m[23d(B[0;7m^G(B[m Справка   (B[0;7m^O(B[m Записать  (B[0;7m^W(B[m Поиск     (B[0;7m^K(B[m Вырезать  (B[0;7m^T(B[m Выполнить (B[0;7m^C(B[m Позиция[24d(B[0;7m^X(B[m Выход     (B[0;7m^R(B[m ЧитФайл   (B[0;7m^\(B[m Замена    (B[0;7m^U(B[m Вставить  (B[0;7m^J(B[m Выровнять (B[0;7m^/(B[m К строке[2d[36m#[3d# The PAM configuration file for the Shadow `login' service[4d#[6d# Enforce a minimal delay in case of failure (in microseconds).[7d# (Replaces the `FAIL_DELAY' setting from login.defs)[8d# Note that other modules may require another minimal delay. (for example,[9d# to disable any delay, you should add the nodelay option to pam_unix)[10d[39m(B[mauth[12Goptional   pam_faildelay.so  delay=3000000[12d[36m# Outputs an issue file prior to each login prompt (Replaces the[13d# ISSUE_FILE option from login.defs). Uncomment for use[14d# auth       required   pam_issue.so issue=/etc/issue[16d# Disallows other than root logins when /etc/nologin exists[17d# (Replaces the `NOLOGINS_FILE' option from login.defs)[18d[39m(B[mauth[12Grequisite  pam_nologin.so[20d[36m# SELinux needs to be the first session rule. This ensures that any[21d# lingering context has been cleared. Without this it is possible[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[22d[K[?12l[?25h7[2;22r8
+[1;24r[21;1H[36m# that a module could execute code in the wrong domain.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# When the module is present, "required" would be sufficient (When SELinux[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# is disabled, this returns success.)[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hsession [success=ok ignore=ignore module_unknown=ignore default=bad] pam_selinu(B[0;7m>[21;1H(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# Sets the loginuid process attribute[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hsession    required     pam_loginuid.so[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# Prints the message of the day upon successful login.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# (Replaces the `MOTD_FILE' option in login.defs)[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# This includes a dynamically generated part from /run/motd.dynamic[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# and a static (admin-editable) part from /etc/motd.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hsession    optional   pam_motd.so motd=/run/motd.dynamic[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hsession    optional   pam_motd.so noupdate[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# SELinux needs to intervene at login time to ensure that the process[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# starts in the proper default security context. Only sessions which are[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# intended to run in the user's context should be run after this.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# pam_selinux.so changes the SELinux context of the used TTY and configures[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# SELinux in order to transition to the user context with the next execve()[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# call.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hsession [success=ok ignore=ignore module_unknown=ignore default=bad] pam_selinu(B[0;7m>[21;1H(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# When the module is present, "required" would be sufficient (When SELinux[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# is disabled, this returns success.)[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# This module parses environment configuration file(s)[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# and also allows you to use an extended config[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# file /etc/security/pam_env.conf.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# [39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# parsing /etc/environment needs "readenv=1"[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hsession[15Grequired   pam_env.so readenv=1[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# locale variables are also kept into /etc/default/locale in etch[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# reading this file *in addition to /etc/environment* does not hurt[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hsession[15Grequired   pam_env.so readenv=1 envfile=/etc/default/locale[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# Standard Un*x authentication.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H@include common-auth[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# This allows certain extra groups to be granted to a user[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# based on things like time of day, tty, service, and user.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# Please edit /etc/security/group.conf to fit your needs[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# (Replaces the `CONSOLE_GROUPS' option in login.defs)[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hauth[12Goptional   pam_group.so[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# Uncomment and edit /etc/security/time.conf if you need to set[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# time restraint on logins.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# (Replaces the `PORTTIME_CHECKS_ENAB' option from login.defs[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# as well as /etc/porttime)[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# account    requisite  pam_time.so[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# Uncomment and edit /etc/security/access.conf if you need to[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# set access limits.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# (Replaces /etc/login.access file)[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# account  required       pam_access.so[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# Sets up user limits according to /etc/security/limits.conf[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# (Replaces the use of /etc/limits in old login)[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hsession    required   pam_limits.so[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# Prints the last login info upon successful login[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# (Replaces the `LASTLOG_ENAB' option from login.defs)[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hsession    optional   pam_lastlog.so[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# Prints the status of the user's mailbox upon successful login[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# (Replaces the `MAIL_CHECK_ENAB' option from login.defs). [39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# This also defines the MAIL environment variable[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# However, userdel also needs MAIL_DIR and MAIL_FILE variables[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# in /etc/login.defs to make sure that removing a user [39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# also removes the user's mail spool file.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# See comments in /etc/login.defs[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hsession    optional   pam_mail.so standard[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# Create a new session keyring.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hsession    optional   pam_keyinit.so force revoke[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# Standard Un*x account and session[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H@include common-account[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H@include common-session[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H@include common-password[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hauth required pam_listfile.so item=user sense=deny file=/etc/denyusers[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25ha[?25l[?12l[?25hu[?25l[?12l[?25ht[?25l[?12l[?25hh[?25l[?12l[?25h [?25l[?12l[?25hr[?25l[?12l[?25he[?25l[?12l[?25hq[?25l[?12l[?25hu[?25l[?12l[?25hi[?25l[?12l[?25hr[?25l[?12l[?25he[?25l[?12l[?25hd[?25l[?12l[?25h [?25l[?12l[?25hp[?25l[?12l[?25ha[?25l[?12l[?25hm[?25l[?12l[?25h_[?25l[?12l[?25hl[?25l[?12l[?25hi[?25l[?12l[?25hs[?25l[?12l[?25ht[?25l[?12l[?25hf[?25l[?12l[?25hi[?25l[?12l[?25hl[?25l[?12l[?25he[?25l[?12l[?25h.[?25l[?12l[?25hs[?25l[?12l[?25ho[?25l[?12l[?25h [?25l[?12l[?25hi[?25l[?12l[?25ht[?25l[?12l[?25he[?25l[?12l[?25hm[?25l[?12l[?25h=[?25l[?12l[?25hu[?25l[?12l[?25hs[?25l[?12l[?25he[?25l[?12l[?25hr[?25l[?12l[?25h [?25l[?12l[?25hs[?25l[?12l[?25he[?25l[?12l[?25hn[?25l[?12l[?25hs[?25l[?12l[?25he[?25l[?12l[?25h=[?25l[?12l[?25hd[?25l[?12l[?25he[?25l[?12l[?25hn[?25l[?12l[?25hy[?25l[?12l[?25h [?25l[?12l[?25hf[?25l[?12l[?25hi[?25l[?12l[?25hl[?25l[?12l[?25he[?25l[?12l[?25h=[?25l[?12l[?25h/[?25l[?12l[?25he[?25l[?12l[?25ht[?25l[?12l[?25hc[?25l[?12l[?25h/[?25l[?12l[?25hd[?25l[?12l[?25he[?25l[?12l[?25hn[?25l[?12l[?25hy[?25l[?12l[?25hu[?25l[?12l[?25hs[?25l[?12l[?25he[?25l[?12l[?25hr[?25l[?12l[?25hs[?25l[?12l[?25h[21d[?25l[?12l[?25h[20;71H[?25l[1;52H(B[0;7m*[79G(B[m[?12l[?25h[20;70H [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[19;25H[?12l[?25h[?25l[22;35H(B[0;7m[ Запись… ](B[m[1;52H(B[0;7m [79G(B[m[22;30H(B[0;7m[ Записано 100 строк ](B[m[?12l[?25h[19;25H[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ sudo nano /etc/pam.d/login[K[K[K[K[Ksshd
+[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ Чтение… ](B[m[22;30H(B[0;7m[ Прочитана 1 строка ](B[m[H(B[0;7m  GNU nano 6.2                     /etc/pam.d/sshd                              [1;79H(B[m[23d(B[0;7m^G(B[m Справка   (B[0;7m^O(B[m Записать  (B[0;7m^W(B[m Поиск     (B[0;7m^K(B[m Вырезать  (B[0;7m^T(B[m Выполнить (B[0;7m^C(B[m Позиция[24d(B[0;7m^X(B[m Выход     (B[0;7m^R(B[m ЧитФайл   (B[0;7m^\(B[m Замена    (B[0;7m^U(B[m Вставить  (B[0;7m^J(B[m Выровнять (B[0;7m^/(B[m К строке[2dauth required pam_listfile.so item=user sense=deny file=/etc/denyusers[?12l[?25h[?25l[?12l[?25ha[?25l[?12l[?25hu[?25l[?12l[?25ht[?25l[?12l[?25hh[?25l[?12l[?25h [?25l[?12l[?25hr[?25l[?12l[?25he[?25l[?12l[?25hq[?25l[?12l[?25hu[?25l[?12l[?25hi[?25l[?12l[?25hr[?25l[?12l[?25he[?25l[?12l[?25hd[?25l[?12l[?25h [?25l[?12l[?25hp[?25l[?12l[?25ha[?25l[?12l[?25hm[?25l[?12l[?25h_[?25l[?12l[?25hl[?25l[22d[K[?12l[?25h[2;21H[?25l[?12l[?25hs[?25l[?12l[?25ht[?25l[?12l[?25hf[?25l[?12l[?25hi[?25l[?12l[?25hl[?25l[?12l[?25he[?25l[?12l[?25h.[?25l[?12l[?25hs[?25l[?12l[?25ho[?25l[?12l[?25h [?25l[?12l[?25hi[?25l[?12l[?25ht[?25l[?12l[?25he[?25l[?12l[?25hm[?25l[?12l[?25h=[?25l[?12l[?25hu[?25l[?12l[?25hs[?25l[?12l[?25he[?25l[?12l[?25hr[?25l[?12l[?25h [?25l[?12l[?25hs[?25l[?12l[?25he[?25l[?12l[?25hn[?25l[?12l[?25hs[?25l[?12l[?25he[?25l[?12l[?25h=[?25l[?12l[?25hd[?25l[?12l[?25he[?25l[?12l[?25hn[?25l[?12l[?25hy[?25l[?12l[?25h [?25l[?12l[?25hf[?25l[?12l[?25hi[?25l[?12l[?25hl[?25l[?12l[?25he[?25l[?12l[?25h=[?25l[?12l[?25h/[?25l[?12l[?25he[?25l[?12l[?25ht[?25l[?12l[?25hc[?25l[?12l[?25h/[?25l[?12l[?25hd[?25l[?12l[?25he[?25l[?12l[?25hn[?25l[?12l[?25hy[?25l[?12l[?25hu[?25l[?12l[?25hs[?25l[?12l[?25he[?25l[?12l[?25hr[?25l[?12l[?25hs[?25l[?12l[?25h[3d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[2;71H[?25l[1;52H(B[0;7m*[79G(B[m[?12l[?25h[2;70H [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[22;35H(B[0;7m[ Запись… ](B[m[1;52H(B[0;7m [79G(B[m[22;30H(B[0;7m[ Записана 1 строка ](B[m[?12l[?25h[2d[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ sudo nano /etc/pam.d/sshd[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ksudo sed -i '/visitor/d' /etc/denyusers 
+[?2004l[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ sudo nano /etc/pam.s[Kd/login
+[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ Чтение… ](B[m[22;29H(B[0;7m[ Прочитано 100 строк ](B[m[H(B[0;7m  GNU nano 6.2                    /etc/pam.d/login                              [1;79H(B[m[23d(B[0;7m^G(B[m Справка   (B[0;7m^O(B[m Записать  (B[0;7m^W(B[m Поиск     (B[0;7m^K(B[m Вырезать  (B[0;7m^T(B[m Выполнить (B[0;7m^C(B[m Позиция[24d(B[0;7m^X(B[m Выход     (B[0;7m^R(B[m ЧитФайл   (B[0;7m^\(B[m Замена    (B[0;7m^U(B[m Вставить  (B[0;7m^J(B[m Выровнять (B[0;7m^/(B[m К строке[2d[36m#[3d# The PAM configuration file for the Shadow `login' service[4d#[6d# Enforce a minimal delay in case of failure (in microseconds).[7d# (Replaces the `FAIL_DELAY' setting from login.defs)[8d# Note that other modules may require another minimal delay. (for example,[9d# to disable any delay, you should add the nodelay option to pam_unix)[10d[39m(B[mauth[12Goptional   pam_faildelay.so  delay=3000000[12d[36m# Outputs an issue file prior to each login prompt (Replaces the[13d# ISSUE_FILE option from login.defs). Uncomment for use[14d# auth       required   pam_issue.so issue=/etc/issue[16d# Disallows other than root logins when /etc/nologin exists[17d# (Replaces the `NOLOGINS_FILE' option from login.defs)[18d[39m(B[mauth[12Grequisite  pam_nologin.so[20d[36m# SELinux needs to be the first session rule. This ensures that any[21d# lingering context has been cleared. Without this it is possible[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[5d[?25l[?12l[?25h[8d[?25l[?12l[?25h[11d[?25l[?12l[?25h[14d[?25l[?12l[?25h[17d[?25l[?12l[?25h[20d[?25l[22d[K[?12l[?25h7[2;22r8[2S[1;24r[20;1H[36m# that a module could execute code in the wrong domain.[21d# When the module is present, "required" would be sufficient (When SELinux[39m(B[m[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1H[36m# is disabled, this returns success.)[20d[39m(B[msession [success=ok ignore=ignore module_unknown=ignore default=bad] pam_selinu(B[0;7m>[21;1H(B[m[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1H[36m# Sets the loginuid process attribute[20d[39m(B[msession    required     pam_loginuid.so[21d[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1H[36m# Prints the message of the day upon successful login.[20d# (Replaces the `MOTD_FILE' option in login.defs)[21d# This includes a dynamically generated part from /run/motd.dynamic[39m(B[m[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1H[36m# and a static (admin-editable) part from /etc/motd.[20d[39m(B[msession    optional   pam_motd.so motd=/run/motd.dynamic[21dsession    optional   pam_motd.so noupdate[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[20;1H[36m# SELinux needs to intervene at login time to ensure that the process[21d# starts in the proper default security context. Only sessions which are[39m(B[m[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1H[36m# intended to run in the user's context should be run after this.[20d# pam_selinux.so changes the SELinux context of the used TTY and configures[21d# SELinux in order to transition to the user context with the next execve()[39m(B[m[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1H[36m# call.[20d[39m(B[msession [success=ok ignore=ignore module_unknown=ignore default=bad] pam_selinu(B[0;7m>[21;1H(B[0m[36m# When the module is present, "required" would be sufficient (When SELinux[39m(B[m[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1H[36m# is disabled, this returns success.)[21d# This module parses environment configuration file(s)[39m(B[m[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1H[36m# and also allows you to use an extended config[20d# file /etc/security/pam_env.conf.[21d# [39m(B[m[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1H[36m# parsing /etc/environment needs "readenv=1"[20d[39m(B[msession[15Grequired   pam_env.so readenv=1[21d[36m# locale variables are also kept into /etc/default/locale in etch[39m(B[m[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1H[36m# reading this file *in addition to /etc/environment* does not hurt[20d[39m(B[msession[15Grequired   pam_env.so readenv=1 envfile=/etc/default/locale[21d[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1H[36m# Standard Un*x authentication.[20d[39m(B[m@include common-auth[21d[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1H[36m# This allows certain extra groups to be granted to a user[20d# based on things like time of day, tty, service, and user.[21d# Please edit /etc/security/group.conf to fit your needs[39m(B[m[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1H[36m# (Replaces the `CONSOLE_GROUPS' option in login.defs)[20d[39m(B[mauth[12Goptional   pam_group.so[21d[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1H[36m# Uncomment and edit /etc/security/time.conf if you need to set[20d# time restraint on logins.[21d# (Replaces the `PORTTIME_CHECKS_ENAB' option from login.defs[39m(B[m[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1H[36m# as well as /etc/porttime)[20d# account    requisite  pam_time.so[21d[39m(B[m[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1H[36m# Uncomment and edit /etc/security/access.conf if you need to[20d# set access limits.[21d# (Replaces /etc/login.access file)[39m(B[m[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1H[36m# account  required       pam_access.so[21d# Sets up user limits according to /etc/security/limits.conf[39m(B[m[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1H[36m# (Replaces the use of /etc/limits in old login)[20d[39m(B[msession    required   pam_limits.so[21d[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1H[36m# Prints the last login info upon successful login[20d# (Replaces the `LASTLOG_ENAB' option from login.defs)[21d[39m(B[msession    optional   pam_lastlog.so[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[20;1H[36m# Prints the status of the user's mailbox upon successful login[21d# (Replaces the `MAIL_CHECK_ENAB' option from login.defs). [39m(B[m[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1H[36m#[20d# This also defines the MAIL environment variable[21d# However, userdel also needs MAIL_DIR and MAIL_FILE variables[39m(B[m[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1H[36m# in /etc/login.defs to make sure that removing a user [20d# also removes the user's mail spool file.[21d# See comments in /etc/login.defs[39m(B[m[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1Hsession    optional   pam_mail.so standard[21d[36m# Create a new session keyring.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1Hsession    optional   pam_keyinit.so force revoke[21d[36m# Standard Un*x account and session[39m(B[m[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1H@include common-account[20d@include common-session[21d@include common-password[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1;52H(B[0;7m*[79G(B[m[?12l[?25h[21ds[?25l[?12l[?25he[?25l[?12l[?25hs[?25l[?12l[?25hs[?25l[?12l[?25hi[?25l[?12l[?25ho[?25l[?12l[?25hn[?25l[?12l[?25h [?25l[?12l[?25h[41m [49m[38;5;208m        [39m(B[m[?25l[?12l[?25h[8G[K [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25hn[?25l[?12l[?25h[38;5;208m [39m(B[m[?25l[?12l[?25h [?25l[?12l[?25h[38;5;208m [39m(B[m[?25l[?12l[?25h [?25l[?12l[?25h[38;5;208m [39m(B[m[?25l[?12l[?25hd[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[38;5;208m [39m(B[m[?25l[?12l[?25h[38;5;208m        [39m(B[m[?25l[?12l[?25h[21;9H[K[?25l[?12l[?25h [?25l[?12l[?25h[38;5;208m [39m(B[m[?25l[?12l[?25hd[?25l[?12l[?25h [?25l[?12l[?25hs[?25l[?12l[?25he[?25l[?12l[?25hd[?25l[?12l[?25h [?25l[?12l[?25h-[?25l[?12l[?25hi[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25ho[?25l[?12l[?25hp[?25l[?12l[?25ht[?25l[?12l[?25hi[?25l[?12l[?25ho[?25l[?12l[?25hn[?25l[?12l[?25ha[?25l[?12l[?25hl[?25l[?12l[?25h [?25l[?12l[?25hp[?25l[?12l[?25ha[?25l[?12l[?25hm[?25l[?12l[?25h_[?25l[?12l[?25hm[?25l[?12l[?25ha[?25l[?12l[?25ht[?25l[?12l[?25hd[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25ho[?25l[?12l[?25ht[?25l[?12l[?25hd[?25l[?12l[?25h.[?25l[?12l[?25hs[?25l[?12l[?25ho[?25l[?12l[?25h [?25l[?12l[?25hm[?25l[?12l[?25ho[?25l[?12l[?25ht[?25l[?12l[?25hd[?25l[?12l[?25h=[?25l[?12l[?25h/[?25l[?12l[?25he[?25l[?12l[?25ht[?25l[?12l[?25hc[?25l[?12l[?25h/[?25l[?12l[?25hm[?25l[?12l[?25ho[?25l[?12l[?25ht[?25l[?12l[?25hd[?25l[22;35H(B[0;7m[ Запись… ](B[m[1;52H(B[0;7m [79G(B[m[22;29H(B[0;7m[ Записана 101 строка ](B[m[?12l[?25h[21;44H[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ echo "Welcome back?[K.[K, visitor!" | S[Ksudo tee /etc/motd
+[?2004lWelcome back, visitor!
+[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ sudo nano /etc/pam.d[C/common-password 
+[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ Чтение… ](B[m[22;30H(B[0;7m[ Прочитано 36 строк ](B[m[H(B[0;7m  GNU nano 6.2               /etc/pam.d/common-password                         [1;79H(B[m[23d(B[0;7m^G(B[m Справка   (B[0;7m^O(B[m Записать  (B[0;7m^W(B[m Поиск     (B[0;7m^K(B[m Вырезать  (B[0;7m^T(B[m Выполнить (B[0;7m^C(B[m Позиция[24d(B[0;7m^X(B[m Выход     (B[0;7m^R(B[m ЧитФайл   (B[0;7m^\(B[m Замена    (B[0;7m^U(B[m Вставить  (B[0;7m^J(B[m Выровнять (B[0;7m^/(B[m К строке[2d[36m#[3d# /etc/pam.d/common-password - password-related modules common to all services[4d#[5d# This file is included from other service-specific PAM config files,[6d# and should contain a list of modules that define the services to be[7d# used to change user passwords.  The default is pam_unix.[9d# Explanation of pam_unix options:[10d# The "yescrypt" option enables[11d#hashed passwords using the yescrypt algorithm, introduced in Debian[12d#11.  Without this option, the default is Unix crypt.  Prior releases[13d#used the option "sha512"; if a shadow password hash will be shared[14d#between Debian 11 and older releases replace "yescrypt" with "sha512"[15d#for compatibility .  The "obscure" option replaces the old[16d#`OBSCURE_CHECKS_ENAB' option in login.defs.  See the pam_unix manpage[17d#for other options.[19d# As of pam 1.0.1-6, this file is managed by pam-auth-update by default.[20d# To take advantage of this, it is recommended that you configure any[21d# local modules either before or after the default block, and use[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[22d[K[?12l[?25h7[2;22r8
+[1;24r[21;1H[36m# pam-auth-update to manage selection of other modules.  See[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# pam-auth-update(8) for details.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# here are the per-package modules (the "Primary" block)[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hpassword[38;5;208m        [39m(B[mrequisite[38;5;208m[23X[21;49H[39m(B[mpam_pwquality.so retry=3[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hpassword[38;5;208m        [39m(B[m[success=2 default=ignore][38;5;208m      [39m(B[mpam_unix.so obscure use_authtok(B[0;7m>[21;1H(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hpassword[38;5;208m        [39m(B[msufficient[38;5;208m[22X[21;49H[39m(B[mpam_sss.so use_authtok[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# here's the fallback if no module succeeds[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hpassword[38;5;208m        [39m(B[mrequisite[38;5;208m[23X[21;49H[39m(B[mpam_deny.so[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# prime the stack with a positive return value if there isn't one already;[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# this avoids us returning an error just because nothing sets a success code[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# since the modules above will each just jump around[39m(B[m[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25hp[?25l[?12l[?25ha[?25l[?12l[?25hs[?25l[?12l[?25hs[?25l[?12l[?25hw[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25hd[?25l[?12l[?25h[15;17H[?25l[?12l[?25h[[?25l[?12l[?25hs[?25l[?12l[?25hu[?25l[?12l[?25hc[?25l[?12l[?25hc[?25l[?12l[?25he[?25l[?12l[?25hs[?25l[?12l[?25hs[?25l[?12l[?25h=[?25l[?12l[?25h2[?25l[?12l[?25h [?25l[?12l[?25hd[?25l[?12l[?25he[?25l[?12l[?25hf[?25l[?12l[?25ha[?25l[?12l[?25hu[?25l[?12l[?25hl[?25l[?12l[?25ht[?25l[?12l[?25h=[?25l[?12l[?25hi[?25l[?12l[?25hg[?25l[?12l[?25hn[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25he[?25l[?12l[?25h][?25l[?12l[?25h[49G[?25l[?12l[?25hp[?25l[?12l[?25ha[?25l[?12l[?25hm[?25l[?12l[?25h_[?25l[?12l[?25hu[?25l[?12l[?25hn[?25l[?12l[?25hi[?25l[?12l[?25hx[?25l[?12l[?25h.[?25l[?12l[?25hs[?25l[?12l[?25ho[?25l[?12l[?25h [?25l[?12l[?25ho[?25l[?12l[?25hb[?25l[?12l[?25hs[?25l[?12l[?25hc[?25l[?12l[?25hu[?25l[?12l[?25hr[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25hu[?25l[?12l[?25hs[?25l[?12l[?25he[?25l[?12l[?25h_[?25l[?12l[?25ha[?25l[?12l[?25hu[?25l[?12l[?25ht[?25l[?12l[?25hh[?25l[?12l[?25ht[?25l[?12l[?25h(B[0;7m<(B[muthtok try_first_pass yescrypt[K[7G[?25l[?12l[?25hk[?25l[?12l[?25h [?25l[?12l[?25ht[?25l[?12l[?25hr[?25l[?12l[?25hy[?25l[?12l[?25h_[?25l[?12l[?25hf[?25l[?12l[?25hi[?25l[?12l[?25hr[?25l[?12l[?25hs[?25l[?12l[?25ht[?25l[?12l[?25h_[?25l[?12l[?25hp[?25l[?12l[?25ha[?25l[?12l[?25hs[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25hy[?25l[?12l[?25he[?25l[?12l[?25hs[?25l[?12l[?25hc[?25l[?12l[?25hr[?25l[?12l[?25hy[?25l[?12l[?25hp[?25l[?12l[?25ht[?25l[1;57H(B[0;7m*[79G(B[m[?12l[?25h[15;33H[?25l[?12l[?25hr[?25l[?12l[?25he[?25l[?12l[?25hm[?25l[?12l[?25he[?25l[?12l[?25hm[?25l[?12l[?25hb[?25l[?12l[?25he[?25l[?12l[?25hr[?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h=[?25l[?12l[?25h5[?25l7[16;21r8[16dM[1;24r[15;1Hpassword[38;5;208m        [39m(B[m[success=2 default=ignore][38;5;208m      [39m(B[mpam_unix.so obscure use_authtok(B[0;7m>[16;1H(B[m[?12l[?25h[?25l[15;22r[22;1H
+[1;24r[15;1H(B[0;7m<(B[muthtok try_first_pass yescrypt remember=5[21d[36m# since the modules above will each just jump around[15;43H[39m(B[m[?12l[?25h[?25l[22;35H(B[0;7m[ Запись… ](B[m[1;57H(B[0;7m [79G(B[m[22;30H(B[0;7m[ Записано 36 строк ](B[m[?12l[?25h[15;43H[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ s[Ksuud[K[Kdo nano /etc/security/access.conf [K
+[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ Чтение… ](B[m[22;29H(B[0;7m[ Прочитано 122 строки ](B[m[H(B[0;7m  GNU nano 6.2                /etc/security/access.conf                         [1;79H(B[m[23d(B[0;7m^G(B[m Справка   (B[0;7m^O(B[m Записать  (B[0;7m^W(B[m Поиск     (B[0;7m^K(B[m Вырезать  (B[0;7m^T(B[m Выполнить (B[0;7m^C(B[m Позиция[24d(B[0;7m^X(B[m Выход     (B[0;7m^R(B[m ЧитФайл   (B[0;7m^\(B[m Замена    (B[0;7m^U(B[m Вставить  (B[0;7m^J(B[m Выровнять (B[0;7m^/(B[m К строке[2d[36m# Login access control table.[3d#[4d# Comment line must start with "#", no space at front.[5d# Order of lines is important.[6d#[7d# When someone logs in, the table is scanned for the first entry that[8d# matches the (user, host) combination, or, in case of non-networked[9d# logins, the first entry that matches the (user, tty) combination.  The[10d# permissions field of that table entry determines whether the login will[11d# be accepted or refused.[12d#[13d# Format of the login access control table is three fields separated by a[14d# ":" character:[15d#[16d# [Note, if you supply a 'fieldsep=|' argument to the pam_access.so[17d# module, you can change the field separation character to be[18d# '|'. This is useful for configurations where you are trying to use[19d# pam_access with X applications that provide PAM_TTY values that are[20d# the display variable like "host:0".][21d#[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[22d[K[?12l[?25h7[2;22r8
+[1;24r[21;1H[36m# [38;5;208m      [36mpermission:users:origins[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# The first field should be a "+" (access granted) or "-" (access denied)[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# character.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# The second field should be a list of one or more login names, group[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# names, or ALL (always matches). A pattern of the form user@host is[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# matched when the login name matches the "user" part, and when the[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# "host" part matches the local machine name.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# The third field should be a list of one or more tty names (for[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# non-networked logins), host names, domain names (begin with "."), host[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# addresses, internet network numbers (end with "."), ALL (always[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# matches), NONE (matches no tty on non-networked logins) or[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# LOCAL (matches any string that does not contain a "." character).[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# You can use @netgroupname in host or user patterns; this even works[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# for @usergroup@@hostgroup patterns.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# The EXCEPT operator makes it possible to write very compact rules.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# The group file is searched only when a name does not match that of the[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# logged-in user. Both the user's primary group is matched, as well as[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# groups in which users are explicitly listed.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# To avoid problems with accounts, which have the same name as a group,[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# you can use brackets around group names '(group)' to differentiate.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# In this case, you should also set the "nodefgroup" option.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# TTY NAMES: Must be in the form returned by ttyname(3) less the initial[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# "/dev" (e.g. tty1 or vc/1)[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m##############################################################################[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# Disallow non-root logins on tty1[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#-:ALL EXCEPT root:tty1[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# Disallow console logins to all but a few accounts.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#-:ALL EXCEPT wheel shutdown sync:LOCAL[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# Same, but make sure that really the group wheel and not the user[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# wheel is used (use nodefgroup argument, too):[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#-:ALL EXCEPT (wheel) shutdown sync:LOCAL[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# Disallow non-local logins to privileged accounts (group wheel).[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#-:wheel:ALL EXCEPT LOCAL .win.tue.nl[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# Some accounts are not allowed to login from anywhere:[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#-:wsbscaro wsbsecr wsbspac wsbsym wscosor wstaiwde:ALL[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# All other accounts are allowed to login from anywhere.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m##############################################################################[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# All lines from here up to the end are building a more complex example.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m##############################################################################[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# User "root" should be allowed to get access via cron .. tty5 tty6.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#+:root:cron crond :0 tty1 tty2 tty3 tty4 tty5 tty6[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# User "root" should be allowed to get access from hosts with ip addresses.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#+:root:192.168.200.1 192.168.200.4 192.168.200.9[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#+:root:127.0.0.1[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# User "root" should get access from network 192.168.201.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# This term will be evaluated by string matching.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# comment: It might be better to use network/netmask instead.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#          The same is 192.168.201.0/24 or 192.168.201.0/255.255.255.0[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#+:root:192.168.201.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# User "root" should be able to have access from domain.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# Uses string matching also.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#+:root:.foo.bar.org[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# User "root" should be denied to get access from all other sources.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#-:root:ALL[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# User "foo" and members of netgroup "nis_group" should be[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# allowed to get access from all sources.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# This will only work if netgroup service is available.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#+:@nis_group foo:ALL[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# User "john" should get access from ipv4 net/mask[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#+:john:127.0.0.0/24[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# User "john" should get access from ipv4 as ipv6 net/mask[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#+:john:::ffff:127.0.0.0/127[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# User "john" should get access from ipv6 host address[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#+:john:2001:4ca0:0:101::1[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# User "john" should get access from ipv6 host address (same as above)[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#+:john:2001:4ca0:0:101:0:0:0:1[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# User "john" should get access from ipv6 net/mask[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#+:john:2001:4ca0:0:101::/64[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# All other users should be denied to get access from all sources.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#-:ALL:ALL[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1;57H(B[0;7m*[79G(B[m[2;22r[22;1H
+[1;24r[21;1H[?12l[?25h[?25l[?12l[?25h-[?25l[?12l[?25hA[?25l[?12l[?25hl[?25l[?12l[?25hl[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[?12l[?25h-[?25l[?12l[?25hA[?25l[?12l[?25hL[?25l[?12l[?25hL[?25l[?12l[?25h [?25l[?12l[?25hE[?25l[?12l[?25hX[?25l[?12l[?25hE[?25l[?12l[?25hP[?25l[?12l[?25hT[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25hC[?25l[?12l[?25hE[?25l[?12l[?25hP[?25l[?12l[?25hT[?25l[?12l[?25h [?25l[?12l[?25hu[?25l[?12l[?25hs[?25l[?12l[?25he[?25l[?12l[?25hr[?25l[?12l[?25h^[?25l[?12l[?25h [?25l[?12l[?25h"[?25l[?12l[?25h [?25l[?12l[?25h:[?25l[?12l[?25hu[?25l[?12l[?25hs[?25l[?12l[?25he[?25l[?12l[?25hr[?25l[?12l[?25h2[?25l[?12l[?25h:[?25l[?12l[?25hL[?25l[?12l[?25hO[?25l[?12l[?25hC[?25l[?12l[?25hA[?25l[?12l[?25hL[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l[?12l[?25h+[?25l[?12l[?25h:[?25l[?12l[?25h[A[?25l[?12l[?25h[?25l[?12l[?25h:ALL EXCEPT user:user2:LOCAL-:[?25l[?12l[?25h[21d[?25l[?12l[?25hA[?25l[?12l[?25hL[?25l[?12l[?25hL[?25l[?12l[?25h:[?25l[?12l[?25h1[?25l[?12l[?25h9[?25l[?12l[?25h2[?25l[?12l[?25h.[?25l[?12l[?25h1[?25l[?12l[?25h6[?25l[?12l[?25h8[?25l[?12l[?25h.[?25l[?12l[?25h1[?25l[?12l[?25h.[?25l[?12l[?25h0[?25l[?12l[?25h/[?25l[?12l[?25h2[?25l[?12l[?25h5[?25l[?12l[?25h5[?25l[?12l[?25h.[?25l[?12l[?25h2[?25l[?12l[?25h5[?25l[?12l[?25h5[?25l[?12l[?25h.[?25l[?12l[?25h2[?25l[?12l[?25h5[?25l[?12l[?25h5[?25l[?12l[?25h.[?25l[?12l[?25h0[?25l[?12l[?25h[A[?25l[?12l[?25h[21d.0[?25l[?12l[?25h[A[?25l[?12l[?25h[21d.0[?25l[?12l[?25h[A[?25l[?12l[?25h[21d.0[?25l[?12l[?25h[A[?25l[?12l[?25h[21d.0[?25l[?12l[?25h[A[?25l[?12l[?25h[21d.0[?25l[22;35H(B[0;7m[ Запись… ](B[m[1;57H(B[0;7m [79G(B[m[22;30H(B[0;7m[ Записано 125 строк ](B[m[?12l[?25h[21;32H[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ a[Ksudo nano /ey[Ktc/pam.d/login 
+[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ Чтение… ](B[m[22;29H(B[0;7m[ Прочитана 101 строка ](B[m[H(B[0;7m  GNU nano 6.2                    /etc/pam.d/login                              [1;79H(B[m[23d(B[0;7m^G(B[m Справка   (B[0;7m^O(B[m Записать  (B[0;7m^W(B[m Поиск     (B[0;7m^K(B[m Вырезать  (B[0;7m^T(B[m Выполнить (B[0;7m^C(B[m Позиция[24d(B[0;7m^X(B[m Выход     (B[0;7m^R(B[m ЧитФайл   (B[0;7m^\(B[m Замена    (B[0;7m^U(B[m Вставить  (B[0;7m^J(B[m Выровнять (B[0;7m^/(B[m К строке[2d[36m#[3d# The PAM configuration file for the Shadow `login' service[4d#[6d# Enforce a minimal delay in case of failure (in microseconds).[7d# (Replaces the `FAIL_DELAY' setting from login.defs)[8d# Note that other modules may require another minimal delay. (for example,[9d# to disable any delay, you should add the nodelay option to pam_unix)[10d[39m(B[mauth[12Goptional   pam_faildelay.so  delay=3000000[12d[36m# Outputs an issue file prior to each login prompt (Replaces the[13d# ISSUE_FILE option from login.defs). Uncomment for use[14d# auth       required   pam_issue.so issue=/etc/issue[16d# Disallows other than root logins when /etc/nologin exists[17d# (Replaces the `NOLOGINS_FILE' option from login.defs)[18d[39m(B[mauth[12Grequisite  pam_nologin.so[20d[36m# SELinux needs to be the first session rule. This ensures that any[21d# lingering context has been cleared. Without this it is possible[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[22d[K[?12l[?25h7[2;22r8
+[1;24r[21;1H[36m# that a module could execute code in the wrong domain.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# When the module is present, "required" would be sufficient (When SELinux[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# is disabled, this returns success.)[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hsession [success=ok ignore=ignore module_unknown=ignore default=bad] pam_selinu(B[0;7m>[21;1H(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# Sets the loginuid process attribute[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hsession    required     pam_loginuid.so[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# Prints the message of the day upon successful login.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# (Replaces the `MOTD_FILE' option in login.defs)[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# This includes a dynamically generated part from /run/motd.dynamic[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# and a static (admin-editable) part from /etc/motd.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hsession    optional   pam_motd.so motd=/run/motd.dynamic[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hsession    optional   pam_motd.so noupdate[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# SELinux needs to intervene at login time to ensure that the process[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# starts in the proper default security context. Only sessions which are[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# intended to run in the user's context should be run after this.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# pam_selinux.so changes the SELinux context of the used TTY and configures[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# SELinux in order to transition to the user context with the next execve()[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# call.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hsession [success=ok ignore=ignore module_unknown=ignore default=bad] pam_selinu(B[0;7m>[21;1H(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# When the module is present, "required" would be sufficient (When SELinux[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# is disabled, this returns success.)[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# This module parses environment configuration file(s)[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# and also allows you to use an extended config[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# file /etc/security/pam_env.conf.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# [39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# parsing /etc/environment needs "readenv=1"[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hsession[15Grequired   pam_env.so readenv=1[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# locale variables are also kept into /etc/default/locale in etch[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# reading this file *in addition to /etc/environment* does not hurt[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hsession[15Grequired   pam_env.so readenv=1 envfile=/etc/default/locale[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# Standard Un*x authentication.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H@include common-auth[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# This allows certain extra groups to be granted to a user[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# based on things like time of day, tty, service, and user.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# Please edit /etc/security/group.conf to fit your needs[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# (Replaces the `CONSOLE_GROUPS' option in login.defs)[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hauth[12Goptional   pam_group.so[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# Uncomment and edit /etc/security/time.conf if you need to set[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# time restraint on logins.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# (Replaces the `PORTTIME_CHECKS_ENAB' option from login.defs[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# as well as /etc/porttime)[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# account    requisite  pam_time.so[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# Uncomment and edit /etc/security/access.conf if you need to[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# set access limits.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# (Replaces /etc/login.access file)[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# account  required       pam_access.so[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# Sets up user limits according to /etc/security/limits.conf[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# (Replaces the use of /etc/limits in old login)[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hsession    required   pam_limits.so[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# Prints the last login info upon successful login[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# (Replaces the `LASTLOG_ENAB' option from login.defs)[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hsession    optional   pam_lastlog.so[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# Prints the status of the user's mailbox upon successful login[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# (Replaces the `MAIL_CHECK_ENAB' option from login.defs). [39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# This also defines the MAIL environment variable[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# However, userdel also needs MAIL_DIR and MAIL_FILE variables[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# in /etc/login.defs to make sure that removing a user [39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# also removes the user's mail spool file.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# See comments in /etc/login.defs[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hsession    optional   pam_mail.so standard[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# Create a new session keyring.[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hsession    optional   pam_keyinit.so force revoke[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[36m# Standard Un*x account and session[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H@include common-account[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H@include common-session[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H@include common-password[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hsession[38;5;208m [39m(B[moptional pam_motd.so motd=/etc/motd[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1;52H(B[0;7m*[79G(B[m[?12l[?25h[21da[?25l[?12l[?25hu[?25l[?12l[?25ht[?25l[?12l[?25hh[?25l[?12l[?25h[38;5;208m    [39m(B[m[?25l[?12l[?25hr[?25l[?12l[?25he[?25l[?12l[?25hq[?25l[?12l[?25hu[?25l[?12l[?25ha[?25l[?12l[?25h [?25l[?12l[?25hi[?25l[?12l[?25hr[?25l[?12l[?25he[?25l[?12l[?25hd[?25l[?12l[?25h [?25l[?12l[?25hp[?25l[?12l[?25ha[?25l[?12l[?25hm[?25l[?12l[?25h/[?25l[?12l[?25h [?25l[?12l[?25h.[?25l[?12l[?25ha[?25l[?12l[?25hc[?25l[?12l[?25hc[?25l[?12l[?25he[?25l[?12l[?25hs[?25l[?12l[?25hs[?25l[?12l[?25h.[?25l[?12l[?25hs[?25l[?12l[?25hi[?25l[?12l[?25h [?25l[?12l[?25ho[?25l[22;35H(B[0;7m[ Запись… ](B[m[1;52H(B[0;7m [79G(B[m[22;29H(B[0;7m[ Записано 102 строки ](B[m[?12l[?25h[21;31H[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ uptime -s
+[?2004l2025-03-02 15:51:53
+[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ lask[Kt --since -2weeks
+[?2004luser     tty2         tty2             Sun Mar  2 15:52   still logged in
+reboot   system boot  6.8.0-52-generic Sun Mar  2 15:51   still running
+user     tty2         tty2             Sun Mar  2 15:34 - crash  (00:16)
+user     tty2         tty2             Sun Mar  2 15:34 - 15:34  (00:00)
+user     tty2         tty2             Sun Mar  2 15:27 - 15:34  (00:06)
+reboot   system boot  6.8.0-52-generic Sun Mar  2 15:22   still running
+
+wtmp begins Sun Mar  2 15:22:08 2025
+[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ grep '[K"session opened" /var/log/auth.log | grep --since="2 weeksa[K a [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca go"
+[?2004lgrep: нераспознанный параметр «--since=2 weeks ago»
+Использование: grep [ПАРАМЕТР]… ШАБЛОНЫ [ФАЙЛ]…
+Запустите «grep --help» для получения более подробного описания.
+grep: /var/log/auth.log: Отказано в доступе
+[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ grep "session opened" /var/log/auth.log | grep --since="2 weeks ago"[A]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ last --since -2weeks[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep "session opened" /var/log/auth.log | grep --since="2 weeks ago"[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kawk -v date="$(date -d "[K'2 weeks ago"[K' '+[K+%b %_d')" '$1$2 >= date"[K' / c[Kvar/lod/auth/[K..[Klog
+[?2004lawk: cannot open /var/lod/auth.log (No such file or directory)
+[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ awk -v date="$(date -d '2 weeks ago' '+%b %_d')" '$1$2 >= date' /var/lod/auth.log[1P/auth.log[C[C[C[C[C[Cg/auth.log[C[C[C[C[C[C[C
+[?2004lawk: cannot open /var/log/auth.log (Permission denied)
+[?2004h]0;user@Ubuntu: ~[01;32muser@Ubuntu[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2025-03-02 16:39:53+03:00 [COMMAND_EXIT_CODE="2"]
