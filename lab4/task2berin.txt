@@ -1,0 +1,31 @@
+Script started on 2025-03-03 21:20:20+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="105" LINES="39"]
+Welcome, user!
+[?2004h]0;user@Ubuntu: ~/labrabota4[01;32muser@Ubuntu[00m:[01;34m~/labrabota4[00m$ mkdir workdir
+[?2004l[?2004h]0;user@Ubuntu: ~/labrabota4[01;32muser@Ubuntu[00m:[01;34m~/labrabota4[00m$ ls -lt
+[?2004lитого 8
+drwxrwxr-x 2 user user 4096 мар  3 21:20 [0m[01;34mworkdir[0m
+-rw-rw-r-- 1 user user    0 мар  3 21:20 task2berin.txt
+-rw-rw-r-- 1 user user    0 мар  3 21:20 timelog2berin
+-rw-rw-r-- 1 user user  198 мар  3 21:08 request.txt
+[?2004h]0;user@Ubuntu: ~/labrabota4[01;32muser@Ubuntu[00m:[01;34m~/labrabota4[00m$ ls -ltr
+[?2004lитого 8
+-rw-rw-r-- 1 user user  198 мар  3 21:08 request.txt
+-rw-rw-r-- 1 user user    0 мар  3 21:20 timelog2berin
+-rw-rw-r-- 1 user user    0 мар  3 21:20 task2berin.txt
+drwxrwxr-x 2 user user 4096 мар  3 21:20 [0m[01;34mworkdir[0m
+[?2004h]0;user@Ubuntu: ~/labrabota4[01;32muser@Ubuntu[00m:[01;34m~/labrabota4[00m$ ls -a
+[?2004l[0m[01;34m.[0m  [01;34m..[0m  request.txt  task2berin.txt  timelog2berin  [01;34mworkdir[0m
+[?2004h]0;user@Ubuntu: ~/labrabota4[01;32muser@Ubuntu[00m:[01;34m~/labrabota4[00m$ ls -a[Ki
+[?2004l1195280 request.txt  1195289 task2berin.txt  1195292 timelog2berin  1195283 [0m[01;34mworkdir[0m
+[?2004h]0;user@Ubuntu: ~/labrabota4[01;32muser@Ubuntu[00m:[01;34m~/labrabota4[00m$ ls -i[Kali
+[?2004lитого 16
+1195274 drwxrwxr-x  3 user user 4096 мар  3 21:20 [0m[01;34m.[0m
+ 565581 drwxr-x--- 17 user user 4096 мар  3 21:08 [01;34m..[0m
+1195280 -rw-rw-r--  1 user user  198 мар  3 21:08 request.txt
+1195289 -rw-rw-r--  1 user user    0 мар  3 21:20 task2berin.txt
+1195292 -rw-rw-r--  1 user user    0 мар  3 21:20 timelog2berin
+1195283 drwxrwxr-x  2 user user 4096 мар  3 21:20 [01;34mworkdir[0m
+[?2004h]0;user@Ubuntu: ~/labrabota4[01;32muser@Ubuntu[00m:[01;34m~/labrabota4[00m$ exit
+[?2004lexit
+
+Script done on 2025-03-03 21:21:39+03:00 [COMMAND_EXIT_CODE="0"]
