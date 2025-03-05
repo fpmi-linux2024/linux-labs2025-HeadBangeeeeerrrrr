@@ -1,0 +1,17 @@
+Script started on 2025-03-03 22:04:02+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="105" LINES="39"]
+Welcome, user!
+[?2004h]0;user@Ubuntu: ~/labrabota4[01;32muser@Ubuntu[00m:[01;34m~/labrabota4[00m$ cp request.txt workdir/
+[?2004l[?2004h]0;user@Ubuntu: ~/labrabota4[01;32muser@Ubuntu[00m:[01;34m~/labrabota4[00m$ cp request.txt workdir/.request
+[?2004l[?2004h]0;user@Ubuntu: ~/labrabota4[01;32muser@Ubuntu[00m:[01;34m~/labrabota4[00m$ mv request.txt request.bak
+[?2004l[?2004h]0;user@Ubuntu: ~/labrabota4[01;32muser@Ubuntu[00m:[01;34m~/labrabota4[00m$ [K]0;user@Ubuntu: ~/labrabota4[01;32muser@Ubuntu[00m:[01;34m~/labrabota4[00m$ [K]0;user@Ubuntu: ~/labrabota4[01;32muser@Ubuntu[00m:[01;34m~/labrabota4[00m$ [K]0;user@Ubuntu: ~/labrabota4[01;32muser@Ubuntu[00m:[01;34m~/labrabota4[00m$ mv request.bak workdir/
+[?2004l[?2004h]0;user@Ubuntu: ~/labrabota4[01;32muser@Ubuntu[00m:[01;34m~/labrabota4[00m$  [Kls -ali workdir/
+[?2004lитого 20
+1195283 drwxrwxr-x 2 user user 4096 мар  3 22:05 [0m[01;34m.[0m
+1195274 drwxrwxr-x 3 user user 4096 мар  3 22:05 [01;34m..[0m
+1193527 -rw-rw-r-- 1 user user  198 мар  3 22:04 .request
+1195280 -rw-rw-r-- 1 user user  198 мар  3 21:08 request.bak
+1193526 -rw-rw-r-- 1 user user  198 мар  3 22:04 request.txt
+[?2004h]0;user@Ubuntu: ~/labrabota4[01;32muser@Ubuntu[00m:[01;34m~/labrabota4[00m$ exit
+[?2004lexit
+
+Script done on 2025-03-03 22:06:03+03:00 [COMMAND_EXIT_CODE="0"]
