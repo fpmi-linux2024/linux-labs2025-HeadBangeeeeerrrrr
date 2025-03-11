@@ -21,3 +21,7 @@
 ## Лабораторная работа № 4
 
 [Ссылка на отчет](https://disk.yandex.ru/d/p0ZcC03x9OrExA)
+
+## Лабораторная работа № 5
+
+[Ссылка на отчет](https://disk.yandex.ru/d/umIRKvbDlNbtaQ)
