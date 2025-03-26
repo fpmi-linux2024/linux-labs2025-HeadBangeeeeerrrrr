@@ -1,0 +1,112 @@
+Script started on 2025-03-25 21:19:16+03:00 [TERM="linux" TTY="/dev/tty3" COLUMNS="160" LINES="50"]
+[?2004hstudent@user-VirtualBox:~$ (while true; do echo >> A[K[K[K[K[K A >> log; sleep1[K 1; done)
+[?2004l^Z
+[1]+  Остановлен    ( while true; do
+    echo A >> log; sleep 1;
+done )
+[?2004hstudent@user-VirtualBox:~$ bg
+[?2004l[1]+ ( while true; do
+    echo A >> log; sleep 1;
+done ) &
+[?2004hstudent@user-VirtualBox:~$ jobs
+[?2004l[1]+  Запущен          ( while true; do
+    echo A >> log; sleep 1;
+done ) &
+[?2004hstudent@user-VirtualBox:~$ jobs[2Pbg(while true; do echo A >> log; sleep 1; done)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K(while true; do echo A >> log; sleep 1; done)[1P[1@B[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C &
+[?2004l[2] 2956
+[?2004hstudent@user-VirtualBox:~$ (while true; do echo B >> log; sleep 1; done) &[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cjobs[K
+[?2004l[1]-  Запущен          ( while true; do
+    echo A >> log; sleep 1;
+done ) &
+[2]+  Запущен          ( while true; do
+    echo B >> log; sleep 1;
+done ) &
+[?2004hstudent@user-VirtualBox:~$ ps
+[?2004l    PID TTY          TIME CMD
+   2897 pts/1    00:00:00 bash
+   2904 pts/1    00:00:00 bash
+   2956 pts/1    00:00:00 bash
+   2991 pts/1    00:00:00 sleep
+   2992 pts/1    00:00:00 sleep
+   2993 pts/1    00:00:00 ps
+[?2004hstudent@user-VirtualBox:~$ renice 10 2904
+[?2004l2904 (process ID) старый приоритет 0, новый приоритет 10
+[?2004hstudent@user-VirtualBox:~$ jon[Kbs
+[?2004l[1]-  Запущен          ( while true; do
+    echo A >> log; sleep 1;
+done ) &
+[2]+  Запущен          ( while true; do
+    echo B >> log; sleep 1;
+done ) &
+[?2004hstudent@user-VirtualBox:~$ kill %2
+[?2004l[?2004hstudent@user-VirtualBox:~$ jobs
+[?2004l[1]-  Запущен          ( while true; do
+    echo A >> log; sleep 1;
+done ) &
+[2]+  Завершено      ( while true; do
+    echo B >> log; sleep 1;
+done )
+[?2004hstudent@user-VirtualBox:~$ jobs
+[?2004l[1]+  Запущен          ( while true; do
+    echo A >> log; sleep 1;
+done ) &
+[?2004hstudent@user-VirtualBox:~$ kill %1
+[?2004l[?2004hstudent@user-VirtualBox:~$ jobs
+[?2004l[1]+  Завершено      ( while true; do
+    echo A >> log; sleep 1;
+done )
+[?2004hstudent@user-VirtualBox:~$ jobs
+[?2004l[?2004hstudent@user-VirtualBox:~$ ps -eo user, pid[K[K[K[Kpid,%cpu,^[K&[K%mem,usz,rss,tty,stat,start,time,command | head -n 4[1P[1@v[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lUSER         PID %CPU %MEM    VSZ   RSS TT       STAT  STARTED     TIME COMMAND
+root           1  0.2  0.2  22528 13380 ?        Ss   21:09:57 00:00:01 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    21:09:57 00:00:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    21:09:57 00:00:00 [pool_workqueue_release]
+[?2004hstudent@user-VirtualBox:~$ nice -n 18 tar -czf archive.tar.gz /home/user/
+[?2004ltar: Удаляется начальный `/' из имен объектов
+tar: /home/user: Функция open завершилась с ошибкой: Отказано в доступе
+tar: Завершение работы с состоянием неисправности из-за возникших ошибок
+[?2004hstudent@user-VirtualBox:~$ pki[K[K[Ksu user
+[?2004lПароль: 
+[?2004huser@user-VirtualBox:/home/student$ pkill -u student
+[?2004lpkill: ошибка завершения ПИД 2831: Операция не позволена
+pkill: ошибка завершения ПИД 2832: Операция не позволена
+pkill: ошибка завершения ПИД 2844: Операция не позволена
+pkill: ошибка завершения ПИД 2845: Операция не позволена
+pkill: ошибка завершения ПИД 2846: Операция не позволена
+pkill: ошибка завершения ПИД 2847: Операция не позволена
+pkill: ошибка завершения ПИД 2848: Операция не позволена
+pkill: ошибка завершения ПИД 2854: Операция не позволена
+pkill: ошибка завершения ПИД 2885: Операция не позволена
+pkill: ошибка завершения ПИД 2896: Операция не позволена
+pkill: ошибка завершения ПИД 2897: Операция не позволена
+pkill: ошибка завершения ПИД 2914: Операция не позволена
+pkill: ошибка завершения ПИД 2915: Операция не позволена
+pkill: ошибка завершения ПИД 2925: Операция не позволена
+[?2004huser@user-VirtualBox:/home/student$ ps -u student | grep T
+[?2004l    PID [01;31m[KT[m[K[01;31m[KT[m[KY          [01;31m[KT[m[KIME CMD
+[?2004huser@user-VirtualBox:/home/student$ ps -u student | grep T[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Knise[K[Kce -n 4 sleep 100
+[?2004l^Z
+[1]+  Остановлен    nice -n 4 sleep 100
+[?2004huser@user-VirtualBox:/home/student$ ps -e | head -n 7
+[?2004l    PID TTY          TIME CMD
+      1 ?        00:00:01 systemd
+      2 ?        00:00:00 kthreadd
+      3 ?        00:00:00 pool_workqueue_release
+      4 ?        00:00:00 kworker/R-rcu_g
+      5 ?        00:00:00 kworker/R-rcu_p
+      6 ?        00:00:00 kworker/R-slub_
+[?2004huser@user-VirtualBox:/home/student$ ps -eo pid,comm, [K%mem --sort=%mem | head -n 5
+[?2004l    PID COMMAND         %MEM
+      2 kthreadd         0.0
+      3 pool_workqueue_  0.0
+      4 kworker/R-rcu_g  0.0
+      5 kworker/R-rcu_p  0.0
+[?2004huser@user-VirtualBox:/home/student$ exit
+[?2004lexit
+Есть остановленные задания.
+[?2004huser@user-VirtualBox:/home/student$ exit
+[?2004lexit
+[?2004hstudent@user-VirtualBox:~$ exit
+[?2004lexit
+
+Script done on 2025-03-25 21:27:44+03:00 [COMMAND_EXIT_CODE="1"]
