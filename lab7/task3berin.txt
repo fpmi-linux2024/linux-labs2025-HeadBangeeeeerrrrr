@@ -1,0 +1,380 @@
+Script started on 2025-04-08 21:35:35+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="118" LINES="58"]
+[0m[49m[39m[27m[24m[K
+[1A7[0m[49m[39m[0m[49m[38;5;31m[1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m [0m[38;5;31m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[?2004h[?25l8[0m[49m[39m[27m[24m[J]2;user@user-VirtualBox:~]1;~]7;file://user-VirtualBox/home/user\[0m[38;5;31m[49m[39m[27m[24m[1m[7m%[27m[1m[0m                                                                                                                     [0m[49m[39m[27m[24m[K[0m[27m[24m[J[0m[49m[39m[0m[49m[38;5;31m[1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m [0m[38;5;31m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[113C[0m[49m[39m[113D[?1h=[?25h[?2004hu[1m[31mu[0m[39m[1m[31mu[0m[39m[90mname -a[39m[1m[31mu[1m[31mn[0m[39m[1m[31mu[1m[31mn[1m[31ma[0m[39m[1m[31ma[1m[31mm[0m[39m[1m[31mm[1m[31me[0m[39m[0m[32mu[0m[32mn[0m[32ma[0m[32mm[0m[32me[39m[39m [39m-[39ma[?1l>[?2004l
+]2;uname -a]1;unameLinux user-VirtualBox 6.8.0-51-generic #52-Ubuntu SMP PREEMPT_DYNAMIC Thu Dec  5 13:09:44 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+[1m[7m%[27m[1m[0m                                                                                                                      ]2;user@user-VirtualBox:~]1;~]7;file://user-VirtualBox/home/user\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m[0m[49m[38;5;31m[1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m [0m[38;5;31m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[113C[0m[49m[39m[113D[?1h=[?2004hl[32ml[39m[32ml[39m[90msblk[39m[32ml[32ms[39m[32ml[32ms[32mc[39m[39m [39m [1m[31ml[1m[31ms[1m[31mc[0m[39m[90mpu[39m[1m[31mc[1m[31mp[0m[39m[1m[31mp[1m[31mu[0m[39m[0m[32ml[0m[32ms[0m[32mc[0m[32mp[0m[32mu[39m[?1l>[?2004l
+]2;lscpu]1;lscpuАрхитектура:               x86_64
+  CPU op-mode(s):          32-bit, 64-bit
+  Address sizes:           39 bits physical, 48 bits virtual
+  Порядок байт:            Little Endian
+CPU(s):                    3
+  On-line CPU(s) list:     0-2
+ID прроизводителя:         GenuineIntel
+  Имя модели:              11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz
+    Семейство ЦПУ:         6
+    Модель:                140
+    Потоков на ядро:       1
+    Ядер на сокет:         3
+    Сокетов:               1
+    Степпинг:              1
+    BogoMIPS:              6220,80
+    Флаги:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr ss
+                           e sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_k
+                           nown_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx
+                            f16c rdrand hypervisor lahf_lm abm 3dnowprefetch pti fsgsbase bmi1 avx2 bmi2 invpcid rdsee
+                           d adx clflushopt sha_ni arat md_clear flush_l1d arch_capabilities
+Virtualization features:   
+  Разработчик гипервизора: KVM
+  Тип виртуализации:       полный
+Caches (sum of all):       
+  L1d:                     144 KiB (3 instances)
+  L1i:                     96 KiB (3 instances)
+  L2:                      3,8 MiB (3 instances)
+  L3:                      24 MiB (3 instances)
+NUMA:                      
+  NUMA node(s):            1
+  NUMA node0 CPU(s):       0-2
+Vulnerabilities:           
+  Gather data sampling:    Unknown: Dependent on hypervisor status
+  Itlb multihit:           KVM: Mitigation: VMX unsupported
+  L1tf:                    Mitigation; PTE Inversion
+  Mds:                     Mitigation; Clear CPU buffers; SMT Host state unknown
+  Meltdown:                Mitigation; PTI
+  Mmio stale data:         Not affected
+  Reg file data sampling:  Not affected
+  Retbleed:                Not affected
+  Spec rstack overflow:    Not affected
+  Spec store bypass:       Vulnerable
+  Spectre v1:              Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+  Spectre v2:              Mitigation; Retpolines; STIBP disabled; RSB filling; PBRSB-eIBRS Not affected; BHI Retpolin
+                           e
+  Srbds:                   Not affected
+  Tsx async abort:         Not affected
+[1m[7m%[27m[1m[0m                                                                                                                      ]2;user@user-VirtualBox:~]1;~]7;file://user-VirtualBox/home/user\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m[0m[49m[38;5;31m[1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m [0m[38;5;31m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[113C[0m[49m[39m[113D[?1h=[?2004hl[32ml[39m[32ml[39m[90mscpu[39m[32ml[32ms[39m[32ml[32ms[32mh[39m[39m [39m [1m[31ml[1m[31ms[1m[31mh[0m[39m[90mw[39m[1m[31mh[1m[31mw[0m[39m[0m[32ml[0m[32ms[0m[32mh[0m[32mw[39m[?1l>[?2004l
+]2;lshw]1;lshwПРЕДУПРЕЖДЕНИЕ: эту программу нужно запускать от имени суперпользователя.
+DMI   SMP   PA-RISC       device-tree           SPD   memory      /proc/cpuinfo             CPUID     PCI (sysfs)           ISA PnP       PnP (sysfs)           PCMCIA      PCMCIA      Virtual I/O (VIRTIO) devices                            IBM Virtual I/O (VIO)                     kernel device tree (sysfs)                          USB   IDE   SCSI    NVMe    MMC   sound     graphics        input     S/390 devices             Network interfaces                  Framebuffer devices                   Display       CPUFreq       ABI   user-virtualbox
+    описание: Computer
+    разрядность: 64 bits
+    возможности: smp vsyscall32
+  *-core
+       описание: Motherboard
+       физический ID: 0
+     *-memory
+          описание: Системная память
+          физический ID: 0
+          размер: 5GiB
+     *-cpu
+          продукт: 11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz
+          производитель: Intel Corp.
+          физический ID: 1
+          сведения о шине: cpu@0
+          версия: 6.140.1
+          разрядность: 64 bits
+          возможности: fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp x86-64 constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch pti fsgsbase bmi1 avx2 bmi2 invpcid rdseed adx clflushopt sha_ni arat md_clear flush_l1d arch_capabilities
+          конфигурация: microcode=134
+     *-pci
+          описание: Host bridge
+          продукт: 440FX - 82441FX PMC [Natoma]
+          производитель: Intel Corporation
+          физический ID: 100
+          сведения о шине: pci@0000:00:00.0
+          версия: 02
+          разрядность: 32 bits
+          частота: 33MHz
+        *-isa
+             описание: ISA bridge
+             продукт: 82371SB PIIX3 ISA [Natoma/Triton II]
+             производитель: Intel Corporation
+             физический ID: 1
+             сведения о шине: pci@0000:00:01.0
+             версия: 00
+             разрядность: 32 bits
+             частота: 33MHz
+             возможности: isa bus_master
+             конфигурация: latency=0
+           *-pnp00:00
+                продукт: PnP device PNP0303
+                физический ID: 0
+                возможности: pnp
+                конфигурация: driver=i8042 kbd
+           *-pnp00:01
+                продукт: PnP device PNP0f03
+                физический ID: 1
+                возможности: pnp
+                конфигурация: driver=i8042 aux
+        *-ide
+             описание: IDE interface
+             продукт: 82371AB/EB/MB PIIX4 IDE
+             производитель: Intel Corporation
+             физический ID: 1.1
+             сведения о шине: pci@0000:00:01.1
+             логическое имя: scsi1
+             версия: 01
+             разрядность: 32 bits
+             частота: 33MHz
+             возможности: ide isa_compat_mode pci_native_mode bus_master emulated
+             конфигурация: driver=ata_piix latency=64
+             ресурсы: IRQ:0 ioport:1f0(размер=8) ioport:3f6 ioport:170(размер=8) ioport:376 ioport:d000(размер=16)
+           *-cdrom
+                описание: DVD reader
+                продукт: CD-ROM
+                производитель: VBOX
+                физический ID: 0.0.0
+                сведения о шине: scsi@1:0.0.0
+                логическое имя: /dev/cdrom
+                логическое имя: /dev/sr0
+                логическое имя: /media/user/VBox_GAs_7.1.6
+                версия: 1.0
+                возможности: removable audio dvd
+                конфигурация: ansiversion=5 mount.fstype=iso9660 mount.options=ro,nosuid,nodev,relatime,nojoliet,check=s,map=n,blocksize=2048,uid=1000,gid=1000,dmode=500,fmode=400,iocharset=utf8 state=mounted status=ready
+              *-medium
+                   физический ID: 0
+                   логическое имя: /dev/cdrom
+                   логическое имя: /media/user/VBox_GAs_7.1.6
+                   конфигурация: mount.fstype=iso9660 mount.options=ro,nosuid,nodev,relatime,nojoliet,check=s,map=n,blocksize=2048,uid=1000,gid=1000,dmode=500,fmode=400,iocharset=utf8 state=mounted
+        *-display
+             описание: VGA compatible controller
+             продукт: SVGA II Adapter
+             производитель: VMware
+             физический ID: 2
+             сведения о шине: pci@0000:00:02.0
+             логическое имя: /dev/fb0
+             версия: 00
+             разрядность: 32 bits
+             частота: 33MHz
+             возможности: vga_controller bus_master rom fb
+             конфигурация: depth=32 driver=vmwgfx latency=64 resolution=1280,800
+             ресурсы: IRQ:18 ioport:d010(размер=16) память:e0000000-e0ffffff память:f0000000-f01fffff память:c0000-dffff
+        *-network
+             описание: Ethernet interface
+             продукт: 82540EM Gigabit Ethernet Controller
+             производитель: Intel Corporation
+             физический ID: 3
+             сведения о шине: pci@0000:00:03.0
+             логическое имя: enp0s3
+             версия: 02
+             серийный №: 08:00:27:bf:fb:0d
+             размер: 1Gbit/s
+             capacity: 1Gbit/s
+             разрядность: 32 bits
+             частота: 66MHz
+             возможности: bus_master cap_list ethernet physical tp 10bt 10bt-fd 100bt 100bt-fd 1000bt-fd autonegotiation
+             конфигурация: autonegotiation=on broadcast=yes driver=e1000 driverversion=6.8.0-51-generic duplex=full ip=10.0.2.15 latency=64 link=yes mingnt=255 multicast=yes port=twisted pair speed=1Gbit/s
+             ресурсы: IRQ:19 память:f0200000-f021ffff ioport:d020(размер=8)
+        *-generic
+             описание: System peripheral
+             продукт: VirtualBox mouse integration
+             производитель: InnoTek Systemberatung GmbH
+             физический ID: 4
+             сведения о шине: pci@0000:00:04.0
+             логическое имя: input7
+             логическое имя: /dev/input/event6
+             логическое имя: /dev/input/js1
+             логическое имя: /dev/input/mouse2
+             версия: 00
+             разрядность: 32 bits
+             частота: 33MHz
+             возможности: pci
+             конфигурация: driver=vboxguest latency=0
+             ресурсы: IRQ:20 ioport:d040(размер=32) память:f0400000-f07fffff память:f0800000-f0803fff
+        *-multimedia
+             описание: Multimedia audio controller
+             продукт: 82801AA AC'97 Audio Controller
+             производитель: Intel Corporation
+             физический ID: 5
+             сведения о шине: pci@0000:00:05.0
+             логическое имя: card0
+             логическое имя: /dev/snd/controlC0
+             логическое имя: /dev/snd/pcmC0D0c
+             логическое имя: /dev/snd/pcmC0D0p
+             логическое имя: /dev/snd/pcmC0D1c
+             версия: 01
+             разрядность: 32 bits
+             частота: 33MHz
+             возможности: bus_master
+             конфигурация: driver=snd_intel8x0 latency=64
+             ресурсы: IRQ:21 ioport:d100(размер=256) ioport:d200(размер=64)
+        *-usb:0
+             описание: USB controller
+             продукт: KeyLargo/Intrepid USB
+             производитель: Apple Inc.
+             физический ID: 6
+             сведения о шине: pci@0000:00:06.0
+             версия: 00
+             разрядность: 32 bits
+             частота: 33MHz
+             возможности: ohci bus_master cap_list
+             конфигурация: driver=ohci-pci latency=64
+             ресурсы: IRQ:22 память:f0804000-f0804fff
+        *-bridge
+             описание: Bridge
+             продукт: 82371AB/EB/MB PIIX4 ACPI
+             производитель: Intel Corporation
+             физический ID: 7
+             сведения о шине: pci@0000:00:07.0
+             версия: 08
+             разрядность: 32 bits
+             частота: 33MHz
+             возможности: bridge
+             конфигурация: driver=piix4_smbus latency=0
+             ресурсы: IRQ:9
+        *-usb:1
+             описание: USB controller
+             продукт: 82801FB/FBM/FR/FW/FRW (ICH6 Family) USB2 EHCI Controller
+             производитель: Intel Corporation
+             физический ID: b
+             сведения о шине: pci@0000:00:0b.0
+             версия: 00
+             разрядность: 32 bits
+             частота: 33MHz
+             возможности: ehci bus_master cap_list
+             конфигурация: driver=ehci-pci latency=64
+             ресурсы: IRQ:19 память:f0805000-f0805fff
+        *-sata
+             описание: SATA controller
+             продукт: 82801HM/HEM (ICH8M/ICH8M-E) SATA Controller [AHCI mode]
+             производитель: Intel Corporation
+             физический ID: d
+             сведения о шине: pci@0000:00:0d.0
+             версия: 02
+             разрядность: 32 bits
+             частота: 33MHz
+             возможности: sata ahci_1.0 bus_master cap_list
+             конфигурация: driver=ahci latency=64
+             ресурсы: IRQ:21 ioport:d240(размер=8) ioport:d248(размер=4) ioport:d250(размер=8) ioport:d258(размер=4) ioport:d260(размер=16) память:f0806000-f0807fff
+  *-input:0
+       продукт: Power Button
+       физический ID: 1
+       логическое имя: input0
+       логическое имя: /dev/input/event0
+       возможности: platform
+  *-input:1
+       продукт: Sleep Button
+       физический ID: 2
+       логическое имя: input1
+       логическое имя: /dev/input/event1
+       возможности: platform
+  *-input:2
+       продукт: AT Translated Set 2 keyboard
+       физический ID: 3
+       логическое имя: input2
+       логическое имя: /dev/input/event2
+       логическое имя: input2::capslock
+       логическое имя: input2::numlock
+       логическое имя: input2::scrolllock
+       возможности: i8042
+  *-input:3
+       продукт: Video Bus
+       физический ID: 4
+       логическое имя: input4
+       логическое имя: /dev/input/event3
+       возможности: platform
+  *-input:4
+       продукт: ImExPS/2 Generic Explorer Mouse
+       физический ID: 5
+       логическое имя: input5
+       логическое имя: /dev/input/event4
+       логическое имя: /dev/input/mouse0
+       возможности: i8042
+  *-input:5
+       продукт: VirtualBox USB Tablet
+       физический ID: 6
+       логическое имя: input6
+       логическое имя: /dev/input/event5
+       логическое имя: /dev/input/js0
+       логическое имя: /dev/input/mouse1
+       возможности: usb
+ПРЕДУПРЕЖДЕНИЕ: выходная информация может быть неполной или неточной. Следует запустить эту программу от имени суперпользователя.
+[1m[7m%[27m[1m[0m                                                                                                                      ]2;user@user-VirtualBox:~]1;~]7;file://user-VirtualBox/home/user\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m[0m[49m[38;5;31m[1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m [0m[38;5;31m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[113C[0m[49m[39m[113D[?1h=[?2004hl[32ml[39m[32ml[39m[90mshw[39m[32ml[32ms[39m[32ml[32ms[32mb[39m[39m [1m[31ml[1m[31ms[1m[31mb[0m[39m[90mlk[39m[1m[31mb[1m[31ml[0m[39m[1m[31ml[1m[31mk[0m[39m[0m[32ml[0m[32ms[0m[32mb[0m[32ml[0m[32mk[39m[?1l>[?2004l
+]2;lsblk]1;lsblkNAME   MAJ:MIN RM  SIZE RO TYPE MOUNTPOINTS
+sda      8:0    0   50G  0 disk 
+├─sda1   8:1    0    1M  0 part 
+├─sda2   8:2    0  513M  0 part /boot/efi
+└─sda3   8:3    0 49,5G  0 part /
+sr0     11:0    1 57,4M  0 rom  /media/user/VBox_GAs_7.1.6
+[1m[7m%[27m[1m[0m                                                                                                                      ]2;user@user-VirtualBox:~]1;~]7;file://user-VirtualBox/home/user\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m[0m[49m[38;5;31m[1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m [0m[38;5;31m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[113C[0m[49m[39m[113D[?1h=[?2004hf[4mf[24m[4mf[24m[90mdisk[39m[4mf[39m[4mr[24m[39m [39m [39m [24m[1m[31mf[24m[1m[31mr[0m[39m[90mee -h[39m[1m[31mf[1m[31mr[1m[31me[0m[39m[1m[31me[1m[31me[0m[39m[0m[32mf[0m[32mr[0m[32me[0m[32me[39m[32me[32m [39m[32me[39m[39m [39m-[39mh[?1l>[?2004l
+]2;free -h]1;free               всего        занят        своб      общая  буф/врем.   доступно
+Память:        4,7Gi       1,7Gi       1,0Gi        68Mi       2,4Gi       3,0Gi
+Подкачка:      2,8Gi          0B       2,8Gi
+[1m[7m%[27m[1m[0m                                                                                                                      ]2;user@user-VirtualBox:~]1;~]7;file://user-VirtualBox/home/user\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m[0m[49m[38;5;31m[1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m [0m[38;5;31m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[113C[0m[49m[39m[113D[?1h=[?2004hd[32md[39m[32md[39m[90miff3 digits_words.txt lowercase_words.txt students_no_tabs.txt[39m[62D[32md[32mf[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [61D[90m -h[39m[32md[32mf[32m [39m[32md[32mf[39m[39m [39m-[39mh[?1l>[?2004l
+]2;df -h]1;dfФайл.система   Размер Использовано  Дост Использовано% Cмонтировано в
+tmpfs            485M         1,3M  484M            1% /run
+/dev/sda3         49G          12G   35G           25% /
+tmpfs            2,4G            0  2,4G            0% /dev/shm
+tmpfs            5,0M         8,0K  5,0M            1% /run/lock
+/dev/sda2        512M         6,2M  506M            2% /boot/efi
+tmpfs            485M         192K  485M            1% /run/user/1000
+/dev/sr0          58M          58M     0          100% /media/user/VBox_GAs_7.1.6
+[1m[7m%[27m[1m[0m                                                                                                                      ]2;user@user-VirtualBox:~]1;~]7;file://user-VirtualBox/home/user\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m[0m[49m[38;5;31m[1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m [0m[38;5;31m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[113C[0m[49m[39m[113D[?1h=[?2004hl[32ml[39m[32ml[39m[90msblk[39m[32ml[32ms[39m[32ml[32ms[32mp[39m[39m [39m [1m[31ml[1m[31ms[1m[31mp[0m[39m[90mci[39m[1m[31mp[1m[31mc[0m[39m[1m[31mc[1m[31mi[0m[39m[0m[32ml[0m[32ms[0m[32mp[0m[32mc[0m[32mi[39m[?1l>[?2004l
+]2;lspci]1;lspci00:00.0 Host bridge: Intel Corporation 440FX - 82441FX PMC [Natoma] (rev 02)
+00:01.0 ISA bridge: Intel Corporation 82371SB PIIX3 ISA [Natoma/Triton II]
+00:01.1 IDE interface: Intel Corporation 82371AB/EB/MB PIIX4 IDE (rev 01)
+00:02.0 VGA compatible controller: VMware SVGA II Adapter
+00:03.0 Ethernet controller: Intel Corporation 82540EM Gigabit Ethernet Controller (rev 02)
+00:04.0 System peripheral: InnoTek Systemberatung GmbH VirtualBox Guest Service
+00:05.0 Multimedia audio controller: Intel Corporation 82801AA AC'97 Audio Controller (rev 01)
+00:06.0 USB controller: Apple Inc. KeyLargo/Intrepid USB
+00:07.0 Bridge: Intel Corporation 82371AB/EB/MB PIIX4 ACPI (rev 08)
+00:0b.0 USB controller: Intel Corporation 82801FB/FBM/FR/FW/FRW (ICH6 Family) USB2 EHCI Controller
+00:0d.0 SATA controller: Intel Corporation 82801HM/HEM (ICH8M/ICH8M-E) SATA Controller [AHCI mode] (rev 02)
+[1m[7m%[27m[1m[0m                                                                                                                      ]2;user@user-VirtualBox:~]1;~]7;file://user-VirtualBox/home/user\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m[0m[49m[38;5;31m[1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m [0m[38;5;31m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[113C[0m[49m[39m[113D[?1h=[?2004hl[32ml[39m[32ml[39m[90mspci[39m[32ml[32ms[39m[32ml[32ms[32mu[39m[39m [39m [1m[31ml[1m[31ms[1m[31mu[0m[39m[90msb[39m[39ms[39mb[0m[32ml[0m[32ms[0m[32mu[32ms[32mb[39m[?1l>[?2004l
+]2;lsusb]1;lsusbBus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 002 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+Bus 002 Device 002: ID 80ee:0021 VirtualBox USB Tablet
+[1m[7m%[27m[1m[0m                                                                                                                      ]2;user@user-VirtualBox:~]1;~]7;file://user-VirtualBox/home/user\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m[0m[49m[38;5;31m[1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m [0m[38;5;31m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[113C[0m[49m[39m[113D[?1h=[?2004hd[32md[39m[32md[39m[90mf -h[39m[32md[32mm[39m[39m [39m [39m [1m[31md[1m[31mm[0m[39m[90midecode[39m[1m[31md[1m[31mm[1m[31mi[0m[39m[39md[39me[39mc[39mo[39md[39me[9D[0m[32md[0m[32mm[0m[32mi[32md[32me[32mc[32mo[32md[32me[39m[?1l>[?2004l
+]2;dmidecode]1;dmidecode# dmidecode 3.5
+/sys/firmware/dmi/tables/smbios_entry_point: Permission denied
+Scanning /dev/mem for entry point.
+Can't read memory from /dev/mem
+[1m[7m%[27m[1m[0m                                                                                                                      ]2;user@user-VirtualBox:~]1;~]7;file://user-VirtualBox/home/user\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m[0m[49m[38;5;31m[1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m [0m[38;5;31m[49m[38;5;196m❯[0m[38;5;196m[49m[38;5;196m[0m[38;5;196m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[113C[0m[49m[39m[113D[?1h=[?2004hi[1m[31mi[0m[39m[1m[31mi[0m[39m[90mfconfig [39m[8D[1m[31mi[1m[31mf[0m[39m[0m[33mi[0m[33mf[39m[33mi[33mf[33mc[39m[1m[31mi[1m[31mf[1m[31mc[0m[39m[1m[31mc[1m[31mo[0m[39m[1m[31mc[0m[39m[0m[39m [39m [39m [39m [39m [39m [90monfig [39m[1m[31mi[1m[31mf[0m[39m[0m[39m [39m [39m [39m [39m [39m [39m [0m[33mi[0m[33mf[39m[90mconfig [39m[33mi[39m[39m [39m [39m [39m [39m [39m [39m [39m [8D[1m[31mi[0m[39m[1m[31mi[0m[39m[90mfconfig [39m[8D[1m[31mi[1m[31mp[0m[39m[39m [39m [39m [39m [39m [39m [39m [0m[32mi[0m[32mp[39m[32mi[32mp[32mc[39m[1m[31mi[1m[31mp[1m[31mc[0m[39m[1m[31mc[1m[31mo[0m[39m[1m[31mo[1m[31mn[0m[39m[1m[31mn[1m[31mf[0m[39m[1m[31mf[1m[31mi[0m[39m[1m[31mi[1m[31mg[0m[39m[1m[31mi[0m[39m[0m[39m [1m[31mf[0m[39m[0m[39m [1m[31mn[0m[39m[0m[39m [1m[31mo[0m[39m[0m[39m [1m[31mc[0m[39m[0m[39m [1m[31mi[1m[31mp[0m[39m[0m[39m [0m[32mi[0m[32mp[39m[32mi[39m[39m [1m[31mi[0m[39m[1m[31mi[0m[39m[90mfconfig [39m[8D[0m[39m [39m [39m [39m [39m [39m [39m [39m [39m [9Di[1m[31mi[0m[39m[1m[31mi[0m[39m[90mfconfig [39m[8D[1m[31mi[1m[31mf[0m[39m[0m[33mi[0m[33mf[39m[39mc[39mo[39mn[39mf[39mi[39mg[39m [9D[32mi[32mf[32mc[32mo[32mn[32mf[32mi[32mg[39m[1C[?1l>[?2004l
+]2;ifconfig]1;ifconfigenp0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.0.2.15  netmask 255.255.255.0  broadcast 10.0.2.255
+        inet6 fe80::8f09:c62:2547:828a  prefixlen 64  scopeid 0x20<link>
+        inet6 fd00::f453:df47:8cbc:f145  prefixlen 64  scopeid 0x0<global>
+        inet6 fd00::3e20:e056:31b8:12b7  prefixlen 64  scopeid 0x0<global>
+        ether 08:00:27:bf:fb:0d  txqueuelen 1000  (Ethernet)
+        RX packets 16738  bytes 21284695 (21.2 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 4932  bytes 447175 (447.1 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Локальная петля (Loopback))
+        RX packets 297  bytes 35725 (35.7 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 297  bytes 35725 (35.7 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+[1m[7m%[27m[1m[0m                                                                                                                      ]2;user@user-VirtualBox:~]1;~]7;file://user-VirtualBox/home/user\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m[0m[49m[38;5;31m[1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m [0m[38;5;31m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[113C[0m[49m[39m[113D[?1h=[?2004hi[1m[31mi[0m[39m[1m[31mi[0m[39m[90mfconfig [39m[8D[1m[31mi[1m[31mp[0m[39m[39m [39m [39m [39m [39m [39m [39m [0m[32mi[0m[32mp[39m[32mi[32mp[32m [39m[32mi[32mp[39m[39m a[4ma[24m[?1l>[?2004l[24ma
+]2;ip a]1;ip1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host noprefixroute 
+       valid_lft forever preferred_lft forever
+2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 08:00:27:bf:fb:0d brd ff:ff:ff:ff:ff:ff
+    inet 10.0.2.15/24 brd 10.0.2.255 scope global dynamic noprefixroute enp0s3
+       valid_lft 81301sec preferred_lft 81301sec
+    inet6 fd00::3e20:e056:31b8:12b7/64 scope global temporary dynamic 
+       valid_lft 86219sec preferred_lft 14219sec
+    inet6 fd00::f453:df47:8cbc:f145/64 scope global dynamic mngtmpaddr noprefixroute 
+       valid_lft 86219sec preferred_lft 14219sec
+    inet6 fe80::8f09:c62:2547:828a/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+[1m[7m%[27m[1m[0m                                                                                                                      ]2;user@user-VirtualBox:~]1;~]7;file://user-VirtualBox/home/user\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m[0m[49m[38;5;31m[1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m [0m[38;5;31m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[113C[0m[49m[39m[113D[?1h=[?2004he[1m[31me[0m[39m[1m[31me[0m[39m[90mxit[39m[1m[31me[1m[31mx[0m[39m[0m[32me[0m[32mx[39m[32me[32mx[32mi[39m[1m[31me[1m[31mx[1m[31mi[0m[39m[1m[31mi[1m[31mt[0m[39m[0m[32me[0m[32mx[0m[32mi[0m[32mt[39m[?1l>[?2004l
+]2;exit]1;exit
+Script done on 2025-04-08 21:36:36+03:00 [COMMAND_EXIT_CODE="0"]
