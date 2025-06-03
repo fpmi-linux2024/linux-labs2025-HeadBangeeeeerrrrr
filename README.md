@@ -41,3 +41,7 @@
 ## Лабораторная работа № 9
 
 [Ссылка на отчет](https://disk.yandex.ru/d/Cqk9EZUz79NxWA)
+
+## Лабораторная работа № 10
+
+[Ссылка на отчет](https://disk.yandex.ru/d/xKoIbb9EbtcVlg)
