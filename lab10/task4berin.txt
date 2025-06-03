@@ -1,0 +1,179 @@
+Script started on 2025-05-26 11:28:08+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[0m[49m[39m[27m[24m[K
+[1A7[0m[49m[39m[0m[49m[38;5;31m[1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m [0m[38;5;31m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[?2004h[?25l8[0m[49m[39m[27m[24m[J]2;user@user-VirtualBox:~]1;~]7;file://user-VirtualBox/home/user\[0m[38;5;31m[49m[39m[27m[24m[1m[7m%[27m[1m[0m                                                                               [0m[49m[39m[27m[24m[K[0m[27m[24m[J[0m[49m[39m[0m[49m[38;5;31m[1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m [0m[38;5;31m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[75C[0m[49m[39m[75D[?1h=[?25h[?2004hs[1m[31ms[0m[39m[1m[31ms[0m[39m[90mcript -ttimelog4berin task4berin.txt[39m[36D[1m[31ms[1m[31mu[0m[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [35D[0m[32ms[0m[32mu[39m[90mdo apt install zfsutils-linux -y[39m
+[K[A[6C[32ms[32mu[32md[39m[1B[K[A[7C[1m[31ms[1m[31mu[1m[31md[0m[39m[1m[31md[1m[31mo[0m[39m[0m[4m[32ms[0m[4m[32mu[0m[4m[32md[0m[4m[32mo[24m[39m[4m[32mo[4m[32m [24m[39m[4m[32mo[24m[39m[24m[39m [39mu[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [1B[K[A[10C[1m[31mu[0m[39m[90mmount /media/disk2[1B[39m[K[A[10C[1m[31mu[1m[31mm[0m[39m[1B[K[A[11C[1m[31mm[1m[31mo[0m[39m[1m[31mo[1m[31mu[0m[39m[1m[31mu[1m[31mn[0m[39m[1m[31mn[1m[31mt[0m[39m[0m[32mu[0m[32mm[0m[32mo[0m[32mu[0m[32mn[0m[32mt[39m[32mt[32m [39m[32mt[39m[39m [39m/[4m/[24m[4m/[39m[4md[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [1B[K[A[18C[90mev/sdb6[1B[39m[K[A[18C[4md[39m[4me[24m[1B[K[A[19C[39mv[39m/[39ms[39md[39mb[39m6[1B[A[18C[4me[4mv[4m/[4ms[4md[4mb[4m6[24m[1B[A[25C[4mb[24m[24m [4mb[4m5[24m[4mb[24m[24m [4mb[4m1[24m[?1l>[?2004l[1B
+]2;sudo umount /dev/sdb1]1;umount[sudo] пароль для user: ******      
+umount: /dev/sdb1: not mounted.
+[1m[7m%[27m[1m[0m                                                                                ]2;user@user-VirtualBox:~]1;~]7;file://user-VirtualBox/home/user\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m[0m[49m[38;5;31m[1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m [0m[38;5;31m[49m[38;5;196m❯[0m[38;5;196m[49m[38;5;196m[0m[38;5;196m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[75C[0m[49m[39m[75D[?1h=[?2004hsudo umount /dev/sdb1
+[K[A[25C[21D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [32mu[32mm[32mo[32mu[32mn[32mt[39m [4m/[4md[4me[4mv[4m/[4ms[4md[4mb[4m1[24m[1B[K[A[25C[4mb[24m[24m [4mb[4m4[24m[9D[24m/[24md[24me[24mv[24m/[24ms[24md[24mb[24m4 [8D[4m/[4md[4me[4mv[4m/[4ms[4md[4mb[24m[4mb[4m5[24m[?1l>[?2004l[1B
+]2;sudo umount /dev/sdb5]1;umountumount: /dev/sdb5: not mounted.
+[1m[7m%[27m[1m[0m                                                                                ]2;user@user-VirtualBox:~]1;~]7;file://user-VirtualBox/home/user\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m[0m[49m[38;5;31m[1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m [0m[38;5;31m[49m[38;5;196m❯[0m[38;5;196m[49m[38;5;196m[0m[38;5;196m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[75C[0m[49m[39m[75D[?1h=[?2004hsudo umount /dev/sdb5
+[K[A[25C[21D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [32mu[32mm[32mo[32mu[32mn[32mt[39m [4m/[4md[4me[4mv[4m/[4ms[4md[4mb[4m5[24m[1B[K[A[25C[4mb[24m[24m [4mb[4m6[24m[?1l>[?2004l[1B
+]2;sudo umount /dev/sdb6]1;umountumount: /dev/sdb6: not mounted.
+[1m[7m%[27m[1m[0m                                                                                ]2;user@user-VirtualBox:~]1;~]7;file://user-VirtualBox/home/user\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m[0m[49m[38;5;31m[1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m [0m[38;5;31m[49m[38;5;196m❯[0m[38;5;196m[49m[38;5;196m[0m[38;5;196m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[75C[0m[49m[39m[75D[?1h=[?2004hssudo parted /dev/sdb[20D[7ms[7mu[7md[7mo[7m [7mp[7ma[7mr[7mt[7me[7md[7m [7m/[7md[7me[7mv[7m/[7ms[7md[7mb[27m
+[K[A[4C[27ms[27mu[27md[27mo[27m [27mp[27ma[27mr[27mt[27me[27md[27m [27m/[27md[27me[27mv[27m/[27ms[27md[27mb[1B[K[A[24C[20D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [32mp[32ma[32mr[32mt[32me[32md[39m [4m/[4md[4me[4mv[4m/[4ms[4md[4mb[24m[?1l>[?2004l[1B
+]2;sudo parted /dev/sdb]1;partedGNU Parted 3.6
+Используется /dev/sdb
+Добро пожаловать в GNU Parted! Наберите 'help' для просмотра списка команд.
+                                                                          [?2004h(parted) print
+[?2004lМодель: ATA VBOX HARDDISK (scsi)
+Диск /dev/sdb: 32,2GB
+Размер сектора (логич./физич.): 512B/512B
+Таблица разделов: msdos
+Флаги диска: 
+
+Номер  Начало  Конец   Размер  Тип       Файловая система  Флаги
+ 1     1049kB  4296MB  4295MB  primary   linux-swap(v1)    подкачка
+ 2     4296MB  32,2GB  27,9GB  extended
+ 5     4297MB  18,3GB  14,0GB  logical   xfs
+ 6     18,3GB  32,2GB  14,0GB  logical   btrfs
+
+                                                                          [?2004h(parted) rm 1
+[?2004l                                                                          [?2004h(parted) rm 2
+[?2004l                                                                          [?2004h(parted) print
+[?2004lМодель: ATA VBOX HARDDISK (scsi)
+Диск /dev/sdb: 32,2GB
+Размер сектора (логич./физич.): 512B/512B
+Таблица разделов: msdos
+Флаги диска: 
+
+Номер  Начало  Конец  Размер  Тип  Файловая система  Флаги
+
+                                                                          [?2004h(parted) [K(parted) mklabel gpt
+[?2004lПредупреждение: Существующая метка диска на  /dev/sdb будет уничтожена и все
+данные на этом диске будут потеряны. Действительно продолжить?
+                                                                                                                                                    [?2004hДа/Yes/Нет/No? yes
+[?2004l                                                                          [?2004h(parted) print
+[?2004lМодель: ATA VBOX HARDDISK (scsi)
+Диск /dev/sdb: 32,2GB
+Размер сектора (логич./физич.): 512B/512B
+Таблица разделов: gpt
+Флаги диска: 
+
+Номер  Начало  Конец  Размер  Файловая система  Имя  Флаги
+
+                                                                          [?2004h(parted) [7mmkpart primary linux-swap 0% 4GiB[27m[C[C[C[C[C[C[C[C[Cmkpart primary linux-swap 0% 4GiB
+[?2004l                                                                          [?2004h(parted) [7mname 1 swap_part[27m[C[C[C[C[C[C[C[C[Cname 1 swap_part
+[?2004l                                                                          [?2004h(parted) [7mmkpart primary xfs 4GiB 16GiB[27m[C[C[C[C[C[C[C[C[Cmkpart primary xfs 4GiB 16GiB
+[?2004l                                                                          [?2004h(parted) [7mname 2 gdisk1[27m[C[C[C[C[C[C[C[C[Cname 2 gdisk1
+[?2004l                                                                          [?2004h(parted) [7mmkpart primary zfs 16GiB 100%[27m[C[C[C[C[C[C[C[C[Cmkpart primary zfs 16GiB 100%
+[?2004l                                                                          [?2004h(parted) [7mname 3 gdisk2[27m[C[C[C[C[C[C[C[C[Cname 3 gdisk2
+[?2004l                                                                          [?2004h(parted) print
+[?2004lМодель: ATA VBOX HARDDISK (scsi)
+Диск /dev/sdb: 32,2GB
+Размер сектора (логич./физич.): 512B/512B
+Таблица разделов: gpt
+Флаги диска: 
+
+Номер  Начало  Конец   Размер  Файловая система  Имя        Флаги
+ 1     1049kB  4295MB  4294MB  linux-swap(v1)    swap_part  подкачка
+ 2     4295MB  17,2GB  12,9GB  xfs               gdisk1
+ 3     17,2GB  32,2GB  15,0GB  zfs               gdisk2
+
+                                                                          [?2004h(parted) quit
+[?2004lИнформация: Не забудьте обновить /etc/fstab.
+
+                                                                          [1m[7m%[27m[1m[0m                                                                                                                                                                                                                                              ]2;user@user-VirtualBox:~]1;~]7;file://user-VirtualBox/home/user\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m[0m[49m[38;5;31m[1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m [0m[38;5;31m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[227C[0m[49m[38;5;101m7m 15s[0m[38;5;101m[49m[38;5;101m[0m[38;5;101m[49m[38;5;101m[0m[38;5;101m[49m[39m[233D[?1h=[?2004hssudo mkswap -L gpt_swap /dev/sdb1[33D[7ms[7mu[7md[7mo[7m [7mm[7mk[7ms[7mw[7ma[7mp[7m [7m-[7mL[7m [7mg[7mp[7mt[7m_[7ms[7mw[7ma[7mp[7m [7m/[7md[7me[7mv[7m/[7ms[7md[7mb[7m1[27m
+[K[A[4C[27ms[27mu[27md[27mo[27m [27mm[27mk[27ms[27mw[27ma[27mp[27m [27m-[27mL[27m [27mg[27mp[27mt[27m_[27ms[27mw[27ma[27mp[27m [27m/[27md[27me[27mv[27m/[27ms[27md[27mb[27m1[1B[K[A[4C[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [32mm[32mk[32ms[32mw[32ma[32mp[39m[13C[4m/[4md[4me[4mv[4m/[4ms[4md[4mb[4m1[24m[1B[?1l>[?2004l
+]2;sudo mkswap -L gpt_swap /dev/sdb1]1;mkswapmkswap: /dev/sdb1: предупреждение: очистка старой сигнатуры swap.
+Setting up swapspace version 1, size = 4 GiB (4293914624 bytes)
+LABEL=gpt_swap, UUID=8331b6c9-1a11-4807-9ddb-a34aa7dafb43
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                              ]2;user@user-VirtualBox:~]1;~]7;file://user-VirtualBox/home/user\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m[0m[49m[38;5;31m[1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m [0m[38;5;31m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[233C[0m[49m[39m[233D[?1h=[?2004hssudo swapon /dev/sdb1[21D[7ms[7mu[7md[7mo[7m [7ms[7mw[7ma[7mp[7mo[7mn[7m [7m/[7md[7me[7mv[7m/[7ms[7md[7mb[7m1[27m
+[K[A[4C[27ms[27mu[27md[27mo[27m [27ms[27mw[27ma[27mp[27mo[27mn[27m [27m/[27md[27me[27mv[27m/[27ms[27md[27mb[27m1[1B[K[A[4C[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [32ms[32mw[32ma[32mp[32mo[32mn[39m [4m/[4md[4me[4mv[4m/[4ms[4md[4mb[4m1[24m[1B[?1l>[?2004l
+]2;sudo swapon /dev/sdb1]1;swapon[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                              ]2;user@user-VirtualBox:~]1;~]7;file://user-VirtualBox/home/user\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m[0m[49m[38;5;31m[1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m [0m[38;5;31m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[233C[0m[49m[39m[233D[?1h=[?2004hsswapon --show[13D[7ms[7mw[7ma[7mp[7mo[7mn[7m [7m-[7m-[7ms[7mh[7mo[7mw[27m
+[K[A[4C[27ms[27mw[27ma[27mp[27mo[27mn[27m [27m-[27m-[27ms[27mh[27mo[27mw[1B[K[A[4C[32ms[32mw[32ma[32mp[32mo[32mn[39m[1B[?1l>[?2004l
+]2;swapon --show]1;swaponNAME      TYPE      SIZE USED PRIO
+/swapfile file      2,8G   0B   -2
+/dev/sdb1 partition   4G   0B   -3
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                              ]2;user@user-VirtualBox:~]1;~]7;file://user-VirtualBox/home/user\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m[0m[49m[38;5;31m[1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m [0m[38;5;31m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[233C[0m[49m[39m[233D[?1h=[?2004hssudo mkfs.xfs -L gpt_xfs /dev/sdb2[34D[7ms[7mu[7md[7mo[7m [7mm[7mk[7mf[7ms[7m.[7mx[7mf[7ms[7m [7m-[7mL[7m [7mg[7mp[7mt[7m_[7mx[7mf[7ms[7m [7m/[7md[7me[7mv[7m/[7ms[7md[7mb[7m2[27m
+[K[A[4C[27ms[27mu[27md[27mo[27m [27mm[27mk[27mf[27ms[27m.[27mx[27mf[27ms[27m [27m-[27mL[27m [27mg[27mp[27mt[27m_[27mx[27mf[27ms[27m [27m/[27md[27me[27mv[27m/[27ms[27md[27mb[27m2[1B[K[A[4C[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [32mm[32mk[32mf[32ms[32m.[32mx[32mf[32ms[39m[12C[4m/[4md[4me[4mv[4m/[4ms[4md[4mb[4m2[24m[1B[?1l>[?2004l
+]2;sudo mkfs.xfs -L gpt_xfs /dev/sdb2]1;mkfs.xfsmeta-data=/dev/sdb2              isize=512    agcount=4, agsize=786432 blks
+         =                       sectsz=512   attr=2, projid32bit=1
+         =                       crc=1        finobt=1, sparse=1, rmapbt=1
+         =                       reflink=1    bigtime=1 inobtcount=1 nrext64=0
+data     =                       bsize=4096   blocks=3145728, imaxpct=25
+         =                       sunit=0      swidth=0 blks
+naming   =version 2              bsize=4096   ascii-ci=0, ftype=1
+log      =internal log           bsize=4096   blocks=16384, version=2
+         =                       sectsz=512   sunit=0 blks, lazy-count=1
+realtime =пусто             extsz=4096   blocks=0, rtextents=0
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                              ]2;user@user-VirtualBox:~]1;~]7;file://user-VirtualBox/home/user\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m[0m[49m[38;5;31m[1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m [0m[38;5;31m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[233C[0m[49m[39m[233D[?1h=[?2004hssudo zpool create -f my_zfs_pool /dev/sdb3[42D[7ms[7mu[7md[7mo[7m [7mz[7mp[7mo[7mo[7ml[7m [7mc[7mr[7me[7ma[7mt[7me[7m [7m-[7mf[7m [7mm[7my[7m_[7mz[7mf[7ms[7m_[7mp[7mo[7mo[7ml[7m [7m/[7md[7me[7mv[7m/[7ms[7md[7mb[7m3[27m
+[K[A[4C[27ms[27mu[27md[27mo[27m [27mz[27mp[27mo[27mo[27ml[27m [27mc[27mr[27me[27ma[27mt[27me[27m [27m-[27mf[27m [27mm[27my[27m_[27mz[27mf[27ms[27m_[27mp[27mo[27mo[27ml[27m [27m/[27md[27me[27mv[27m/[27ms[27md[27mb[27m3[1B[K[A[4C[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [32mz[32mp[32mo[32mo[32ml[39m[23C[4m/[4md[4me[4mv[4m/[4ms[4md[4mb[4m3[24m[1B[?1l>[?2004l
+]2;sudo zpool create -f my_zfs_pool /dev/sdb3]1;zpool[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                              ]2;user@user-VirtualBox:~]1;~]7;file://user-VirtualBox/home/user\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m[0m[49m[38;5;31m[1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m [0m[38;5;31m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[233C[0m[49m[39m[233D[?1h=[?2004hssudo mkdir /media/gdisk1[24D[7ms[7mu[7md[7mo[7m [7mm[7mk[7md[7mi[7mr[7m [7m/[7mm[7me[7md[7mi[7ma[7m/[7mg[7md[7mi[7ms[7mk[7m1[27m
+[K[A[4C[27ms[27mu[27md[27mo[27m [27mm[27mk[27md[27mi[27mr[27m [27m/[27mm[27me[27md[27mi[27ma[27m/[27mg[27md[27mi[27ms[27mk[27m1[1B[K[A[4C[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [32mm[32mk[32md[32mi[32mr[39m[1B[?1l>[?2004l
+]2;sudo mkdir /media/gdisk1]1;mkdir[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                              ]2;user@user-VirtualBox:~]1;~]7;file://user-VirtualBox/home/user\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m[0m[49m[38;5;31m[1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m [0m[38;5;31m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[233C[0m[49m[39m[233D[?1h=[?2004hssudo mkdir /media/gdisk2[24D[7ms[7mu[7md[7mo[7m [7mm[7mk[7md[7mi[7mr[7m [7m/[7mm[7me[7md[7mi[7ma[7m/[7mg[7md[7mi[7ms[7mk[7m2[27m
+[K[A[4C[27ms[27mu[27md[27mo[27m [27mm[27mk[27md[27mi[27mr[27m [27m/[27mm[27me[27md[27mi[27ma[27m/[27mg[27md[27mi[27ms[27mk[27m2[1B[K[A[4C[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [32mm[32mk[32md[32mi[32mr[39m[1B[?1l>[?2004l
+]2;sudo mkdir /media/gdisk2]1;mkdir[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                              ]2;user@user-VirtualBox:~]1;~]7;file://user-VirtualBox/home/user\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m[0m[49m[38;5;31m[1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m [0m[38;5;31m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[233C[0m[49m[39m[233D[?1h=[?2004hssudo mount /dev/sdb2 /media/gdisk1[34D[7ms[7mu[7md[7mo[7m [7mm[7mo[7mu[7mn[7mt[7m [7m/[7md[7me[7mv[7m/[7ms[7md[7mb[7m2[7m [7m/[7mm[7me[7md[7mi[7ma[7m/[7mg[7md[7mi[7ms[7mk[7m1[27m[34D[27ms[27mu[27md[27mo[27m [27mm[27mo[27mu[27mn[27mt[27m [27m/[27md[27me[27mv[27m/[27ms[27md[27mb[27m2[27m [27m/[27mm[27me[27md[27mi[27ma[27m/[27mg[27md[27mi[27ms[27mk[27m1[34D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [32mm[32mo[32mu[32mn[32mt[39m [4m/[4md[4me[4mv[4m/[4ms[4md[4mb[4m2[24m [4m/[4mm[4me[4md[4mi[4ma[4m/[4mg[4md[4mi[4ms[4mk[4m1[24m[?1l>[?2004l
+]2;sudo mount /dev/sdb2 /media/gdisk1]1;mount[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                              ]2;user@user-VirtualBox:~]1;~]7;file://user-VirtualBox/home/user\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m[0m[49m[38;5;31m[1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m [0m[38;5;31m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[233C[0m[49m[39m[233D[?1h=[?2004hssudo zfs set mountpoint=/media/gdisk2 my_zfs_pool[49D[7ms[7mu[7md[7mo[7m [7mz[7mf[7ms[7m [7ms[7me[7mt[7m [7mm[7mo[7mu[7mn[7mt[7mp[7mo[7mi[7mn[7mt[7m=[7m/[7mm[7me[7md[7mi[7ma[7m/[7mg[7md[7mi[7ms[7mk[7m2[7m [7mm[7my[7m_[7mz[7mf[7ms[7m_[7mp[7mo[7mo[7ml[27m
+[K[A[4C[27ms[27mu[27md[27mo[27m [27mz[27mf[27ms[27m [27ms[27me[27mt[27m [27mm[27mo[27mu[27mn[27mt[27mp[27mo[27mi[27mn[27mt[27m=[27m/[27mm[27me[27md[27mi[27ma[27m/[27mg[27md[27mi[27ms[27mk[27m2[27m [27mm[27my[27m_[27mz[27mf[27ms[27m_[27mp[27mo[27mo[27ml[1B[K[K[A[53C[49D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [32mz[32mf[32ms[39m[41C[?1l>[?2004l[1B]2;sudo zfs set mountpoint=/media/gdisk2 my_zfs_pool]1;zfs[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                              ]2;user@user-VirtualBox:~]1;~]7;file://user-VirtualBox/home/user\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m[0m[49m[38;5;31m[1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m [0m[38;5;31m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[233C[0m[49m[39m[233D[?1h=[?2004hssudo blkid /dev/sdb2[20D[7ms[7mu[7md[7mo[7m [7mb[7ml[7mk[7mi[7md[7m [7m/[7md[7me[7mv[7m/[7ms[7md[7mb[7m2[27m
+[K[A[4C[27ms[27mu[27md[27mo[27m [27mb[27ml[27mk[27mi[27md[27m [27m/[27md[27me[27mv[27m/[27ms[27md[27mb[27m2[1B[K[A[4C[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [32mb[32ml[32mk[32mi[32md[39m [4m/[4md[4me[4mv[4m/[4ms[4md[4mb[4m2[24m[1B[?1l>[?2004l
+]2;sudo blkid /dev/sdb2]1;blkid/dev/sdb2: LABEL="gpt_xfs" UUID="0d1ee067-541f-4709-84a1-e70eaeaf8619" BLOCK_SIZE="512" TYPE="xfs" PARTLABEL="gdisk1" PARTUUID="47f27d53-61cb-49a6-9da7-437d63fbee90"
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                              ]2;user@user-VirtualBox:~]1;~]7;file://user-VirtualBox/home/user\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m[0m[49m[38;5;31m[1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m [0m[38;5;31m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[233C[0m[49m[39m[233D[?1h=[?2004hssudo xfs_info /media/gdisk1[27D[7ms[7mu[7md[7mo[7m [7mx[7mf[7ms[7m_[7mi[7mn[7mf[7mo[7m [7m/[7mm[7me[7md[7mi[7ma[7m/[7mg[7md[7mi[7ms[7mk[7m1[27m
+[K[A[4C[27ms[27mu[27md[27mo[27m [27mx[27mf[27ms[27m_[27mi[27mn[27mf[27mo[27m [27m/[27mm[27me[27md[27mi[27ma[27m/[27mg[27md[27mi[27ms[27mk[27m1[1B[K[A[4C[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [32mx[32mf[32ms[32m_[32mi[32mn[32mf[32mo[39m [4m/[4mm[4me[4md[4mi[4ma[4m/[4mg[4md[4mi[4ms[4mk[4m1[24m[1B[?1l>[?2004l
+]2;sudo xfs_info /media/gdisk1]1;xfs_infometa-data=/dev/sdb2              isize=512    agcount=4, agsize=786432 blks
+         =                       sectsz=512   attr=2, projid32bit=1
+         =                       crc=1        finobt=1, sparse=1, rmapbt=1
+         =                       reflink=1    bigtime=1 inobtcount=1 nrext64=0
+data     =                       bsize=4096   blocks=3145728, imaxpct=25
+         =                       sunit=0      swidth=0 blks
+naming   =version 2              bsize=4096   ascii-ci=0, ftype=1
+log      =internal log           bsize=4096   blocks=16384, version=2
+         =                       sectsz=512   sunit=0 blks, lazy-count=1
+realtime =пусто             extsz=4096   blocks=0, rtextents=0
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                              ]2;user@user-VirtualBox:~]1;~]7;file://user-VirtualBox/home/user\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m[0m[49m[38;5;31m[1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m [0m[38;5;31m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[233C[0m[49m[39m[233D[?1h=[?2004hssudo blkid /dev/sdb3[20D[7ms[7mu[7md[7mo[7m [7mb[7ml[7mk[7mi[7md[7m [7m/[7md[7me[7mv[7m/[7ms[7md[7mb[7m3[27m
+[K[A[4C[27ms[27mu[27md[27mo[27m [27mb[27ml[27mk[27mi[27md[27m [27m/[27md[27me[27mv[27m/[27ms[27md[27mb[27m3[1B[K[A[4C[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [32mb[32ml[32mk[32mi[32md[39m [4m/[4md[4me[4mv[4m/[4ms[4md[4mb[4m3[24m[1B[?1l>[?2004l
+]2;sudo blkid /dev/sdb3]1;blkid/dev/sdb3: LABEL="my_zfs_pool" UUID="2251063658869027481" UUID_SUB="6564312152346574138" BLOCK_SIZE="512" TYPE="zfs_member" PARTLABEL="gdisk2" PARTUUID="4382a26a-b91c-4bfe-af35-a4847a4f4333"
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                              ]2;user@user-VirtualBox:~]1;~]7;file://user-VirtualBox/home/user\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m[0m[49m[38;5;31m[1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m [0m[38;5;31m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[233C[0m[49m[39m[233D[?1h=[?2004hssudo zpool status my_zfs_pool[29D[7ms[7mu[7md[7mo[7m [7mz[7mp[7mo[7mo[7ml[7m [7ms[7mt[7ma[7mt[7mu[7ms[7m [7mm[7my[7m_[7mz[7mf[7ms[7m_[7mp[7mo[7mo[7ml[27m
+[K[A[4C[27ms[27mu[27md[27mo[27m [27mz[27mp[27mo[27mo[27ml[27m [27ms[27mt[27ma[27mt[27mu[27ms[27m [27mm[27my[27m_[27mz[27mf[27ms[27m_[27mp[27mo[27mo[27ml[1B[K[A[4C[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [32mz[32mp[32mo[32mo[32ml[39m[1B[?1l>[?2004l
+]2;sudo zpool status my_zfs_pool]1;zpool  pool: my_zfs_pool
+ state: ONLINE
+config:
+
+	NAME         STATE     READ WRITE CKSUM
+	my_zfs_pool  ONLINE       0     0     0
+	  sdb3       ONLINE       0     0     0
+
+errors: No known data errors
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                              ]2;user@user-VirtualBox:~]1;~]7;file://user-VirtualBox/home/user\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m[0m[49m[38;5;31m[1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m [0m[38;5;31m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[233C[0m[49m[39m[233D[?1h=[?2004hssudo zpool list[15D[7ms[7mu[7md[7mo[7m [7mz[7mp[7mo[7mo[7ml[7m [7ml[7mi[7ms[7mt[27m
+[K[A[4C[27ms[27mu[27md[27mo[27m [27mz[27mp[27mo[27mo[27ml[27m [27ml[27mi[27ms[27mt[1B[K[A[4C[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [32mz[32mp[32mo[32mo[32ml[39m[1B[?1l>[?2004l
+]2;sudo zpool list]1;zpoolNAME          SIZE  ALLOC   FREE  CKPOINT  EXPANDSZ   FRAG    CAP  DEDUP    HEALTH  ALTROOT
+my_zfs_pool  13.5G   132K  13.5G        -         -     0%     0%  1.00x    ONLINE  -
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                              ]2;user@user-VirtualBox:~]1;~]7;file://user-VirtualBox/home/user\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m[0m[49m[38;5;31m[1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m [0m[38;5;31m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[233C[0m[49m[39m[233D[?1h=[?2004hssudo zfs list[13D[7ms[7mu[7md[7mo[7m [7mz[7mf[7ms[7m [7ml[7mi[7ms[7mt[27m
+[K[A[4C[27ms[27mu[27md[27mo[27m [27mz[27mf[27ms[27m [27ml[27mi[27ms[27mt[1B[K[A[4C[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [32mz[32mf[32ms[39m[1B[?1l>[?2004l
+]2;sudo zfs list]1;zfsNAME          USED  AVAIL  REFER  MOUNTPOINT
+my_zfs_pool   132K  13.1G    24K  /media/gdisk2
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                              ]2;user@user-VirtualBox:~]1;~]7;file://user-VirtualBox/home/user\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m[0m[49m[38;5;31m[1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m [0m[38;5;31m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[233C[0m[49m[39m[233D[?1h=[?2004hddf -h[7md[7mf[7m [7m-[7mh[27m
+[K[A[4C[27md[27mf[27m [27m-[27mh[1B[K[A[4C[32md[32mf[39m[1B[?1l>[?2004l
+]2;df -h]1;dfФайл.система   Размер Использовано  Дост Использовано% Cмонтировано в
+tmpfs            485M         1,3M  484M            1% /run
+/dev/sda3         49G          12G   35G           26% /
+tmpfs            2,4G            0  2,4G            0% /dev/shm
+tmpfs            5,0M         8,0K  5,0M            1% /run/lock
+/dev/sda2        512M         6,2M  506M            2% /boot/efi
+tmpfs            485M         188K  485M            1% /run/user/1000
+/dev/sr0          58M          58M     0          100% /media/user/VBox_GAs_7.1.6
+/dev/sdb2         12G         267M   12G            3% /media/gdisk1
+my_zfs_pool       14G         128K   14G            1% /media/gdisk2
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                              ]2;user@user-VirtualBox:~]1;~]7;file://user-VirtualBox/home/user\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m[0m[49m[38;5;31m[1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m [0m[38;5;31m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[233C[0m[49m[39m[233D[?1h=[?2004he[4me[24m[4me[24m[90mxit[39m[4me[39m[4mx[24m[24m[32me[24m[32mx[39m[32me[32mx[32mi[39m[1m[31me[1m[31mx[1m[31mi[0m[39m[1m[31mi[1m[31mt[0m[39m[0m[32me[0m[32mx[0m[32mi[0m[32mt[39m[?1l>[?2004l
+]2;exit]1;exit
+Script done on 2025-05-26 11:41:21+03:00 [COMMAND_EXIT_CODE="0"]
