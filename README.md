@@ -33,3 +33,7 @@
 ## Лабораторная работа № 7
 
 [Ссылка на отчет](https://disk.yandex.ru/d/CaMUtJbISqtblA)
+
+## Лабораторная работа № 8
+
+[Ссылка на отчет](https://disk.yandex.ru/d/YU5radUNR7wijg)

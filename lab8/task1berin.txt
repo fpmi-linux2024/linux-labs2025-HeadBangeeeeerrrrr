@@ -1,0 +1,65 @@
+Script started on 2025-04-23 14:20:12+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+[?2004h]0;student@user-VirtualBox: ~[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ temp=old
+[?2004l[?2004h]0;student@user-VirtualBox: ~[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ echo $temp
+[?2004lold
+[?2004h]0;student@user-VirtualBox: ~[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ echo $temp[2Ptemp=old[K[K[Knew
+[?2004l[?2004h]0;student@user-VirtualBox: ~[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ temp=newecho $temp[2Ptemp=oldecho $temp
+[?2004lnew
+[?2004h]0;student@user-VirtualBox: ~[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ r[Ktemp [K='[K"$temp and new"
+[?2004l[?2004h]0;student@user-VirtualBox: ~[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ temp="$temp and new"[10Pecho $temp[2Ptemp=newecho $temp
+[?2004lnew and new
+[?2004h]0;student@user-VirtualBox: ~[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ unset temp
+[?2004l[?2004h]0;student@user-VirtualBox: ~[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ vect [K=(x y z)
+[?2004l[?2004h]0;student@user-VirtualBox: ~[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ echo "${vect[@]}'[K"
+[?2004lx y z
+[?2004h]0;student@user-VirtualBox: ~[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ vect[2]=w
+[?2004l[?2004h]0;student@user-VirtualBox: ~[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ vect[2]=wecho "${vect[@]}"
+[?2004lx y w
+[?2004h]0;student@user-VirtualBox: ~[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ unset vect
+[?2004l[?2004h]0;student@user-VirtualBox: ~[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ alias lr='ls -alFtr'
+[?2004l[?2004h]0;student@user-VirtualBox: ~[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ lr
+[?2004lитого 148
+drwxr-xr-x  4 root    root     4096 мар 25 14:59  [0m[01;34m..[0m/
+-rw-r--r--  1 student student   516 мар 25 14:59  .gtkrc-xfce
+-rw-r--r--  1 student student  3771 мар 25 14:59  .bashrc
+-rw-r--r--  1 student student    22 мар 25 14:59  .gtkrc-2.0
+-rw-r--r--  1 student student   807 мар 25 14:59  .profile
+-rw-r--r--  1 student student   220 мар 25 14:59  .bash_logout
+drwxr-xr-x  4 student student  4096 мар 25 15:05  [01;34m.local[0m/
+-rw-r--r--  1 student student    27 апр 23 13:51  .dmrc
+drwxr-xr-x  2 student student  4096 апр 23 13:51  [01;34mШаблоны[0m/
+drwxr-xr-x  2 student student  4096 апр 23 13:51 [01;34m'Рабочий стол'[0m/
+drwxr-xr-x  2 student student  4096 апр 23 13:51  [01;34mОбщедоступные[0m/
+drwxr-xr-x  2 student student  4096 апр 23 13:51  [01;34mМузыка[0m/
+drwxr-xr-x  2 student student  4096 апр 23 13:51  [01;34mЗагрузки[0m/
+drwxr-xr-x  2 student student  4096 апр 23 13:51  [01;34mДокументы[0m/
+drwxr-xr-x  2 student student  4096 апр 23 13:51  [01;34mИзображения[0m/
+drwxr-xr-x  2 student student  4096 апр 23 13:51  [01;34mВидео[0m/
+drwx------  7 student student  4096 апр 23 13:51  [01;34m.cache[0m/
+drwxr-xr-x 14 student student  4096 апр 23 13:53  [01;34m.config[0m/
+-rw-------  1 student student  2441 апр 23 14:17  .bash_history
+-rw-------  1 student student 13281 апр 23 14:18  [00;90m.xsession-errors.old[0m
+-rw-------  1 student student    60 апр 23 14:19  .Xauthority
+-rw-r-----  1 student student     5 апр 23 14:19  .vboxclient-clipboard-tty7-control.pid
+-rw-r-----  1 student student     5 апр 23 14:19  .vboxclient-clipboard-tty7-service.pid
+-rw-r-----  1 student student     5 апр 23 14:19  .vboxclient-seamless-tty7-control.pid
+-rw-r-----  1 student student     5 апр 23 14:19  .vboxclient-seamless-tty7-service.pid
+-rw-r-----  1 student student     5 апр 23 14:19  .vboxclient-draganddrop-tty7-control.pid
+-rw-r-----  1 student student     5 апр 23 14:19  .vboxclient-draganddrop-tty7-service.pid
+-rw-r-----  1 student student     5 апр 23 14:19  .vboxclient-hostversion-tty7-control.pid
+-rw-r-----  1 student student     5 апр 23 14:19  .vboxclient-vmsvga-session-tty7-control.pid
+-rw-r-----  1 student student     5 апр 23 14:19  .vboxclient-vmsvga-session-tty7-service.pid
+-rw-rw-r--  1 student student     0 апр 23 14:20  timelog1berin
+-rw-rw-r--  1 student student     0 апр 23 14:20  task1berin.txt
+drwxr-x--- 13 student student  4096 апр 23 14:20  [01;34m.[0m/
+-rw-------  1 student student  9328 апр 23 14:20  .xsession-errors
+[?2004h]0;student@user-VirtualBox: ~[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ cet[K[Kut_time=[7m$(date +%H:%M:%S)[27m$(date +%H:%M:%S)
+[?2004l[?2004h]0;student@user-VirtualBox: ~[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ cut[Kr_m_cal=$(cal)
+[?2004l[?2004h]0;student@user-VirtualBox: ~[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ ni[Kotify-sent[Kd "Time^[K: $cut_time" "$cur_m_cal"\[K
+[?2004l[?2004h]0;student@user-VirtualBox: ~[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2025-04-23 14:23:58+03:00 [COMMAND_EXIT_CODE="0"]
