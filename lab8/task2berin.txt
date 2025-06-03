@@ -1,0 +1,38 @@
+Script started on 2025-04-23 14:29:03+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+[?2004h]0;student@user-VirtualBox: ~[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ touch repor[K[K[K[K[K[K[K[K[K[K[Kls
+[?2004l task1berin.txt   timelog2berin   [0m[01;34mЗагрузки[0m      [01;34mОбщедоступные[0m
+ task2berin.txt   [01;34mВидео[0m           [01;34mИзображения[0m  [01;34m'Рабочий стол'[0m
+ timelog1berin    [01;34mДокументы[0m       [01;34mМузыка[0m        [01;34mШаблоны[0m
+[?2004h]0;student@user-VirtualBox: ~[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ touch report_{1..2}[K[K3} request_{1//[K[K..3}
+[?2004l[?2004h]0;student@user-VirtualBox: ~[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ ls
+[?2004l report_1    request_2        timelog1berin   [0m[01;34mЗагрузки[0m       [01;34m'Рабочий стол'[0m[K
+ report_2    request_3        timelog2berin   [01;34mИзображения[0m     [01;34mШаблоны[0m
+ report_3    task1berin.txt   [01;34mВидео[0m           [01;34mМузыка[0m
+ request_1   task2berin.txt   [01;34mДокументы[0m       [01;34mОбщедоступные[0m
+[?2004h]0;student@user-VirtualBox: ~[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ mkdir report
+[?2004l[?2004h]0;student@user-VirtualBox: ~[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ mv[K[Kmv report_{1..3} report/
+[?2004l[?2004h]0;student@user-VirtualBox: ~[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ ;[Kls re
+report/    request_1  request_2  request_3  
+]0;student@user-VirtualBox: ~[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ ls report/
+[?2004lreport_1  report_2  report_3
+[?2004h]0;student@user-VirtualBox: ~[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ ls
+[?2004l [0m[01;34mreport[0m      task1berin.txt   [01;34mВидео[0m         [01;34mМузыка[0m
+ request_1   task2berin.txt   [01;34mДокументы[0m     [01;34mОбщедоступные[0m
+ request_2   timelog1berin    [01;34mЗагрузки[0m     [01;34m'Рабочий стол'[0m
+ request_3   timelog2berin    [01;34mИзображения[0m   [01;34mШаблоны[0m
+[?2004h]0;student@user-VirtualBox: ~[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ rm request_{1..3{[K}
+[?2004l[?2004h]0;student@user-VirtualBox: ~[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ ls
+[?2004l [0m[01;34mreport[0m           timelog1berin   [01;34mДокументы[0m     [01;34mМузыка[0m          [01;34mШаблоны[0m
+ task1berin.txt   timelog2berin   [01;34mЗагрузки[0m      [01;34mОбщедоступные[0m
+ task2berin.txt   [01;34mВидео[0m           [01;34mИзображения[0m  [01;34m'Рабочий стол'[0m
+[?2004h]0;student@user-VirtualBox: ~[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ echo "$ls reporn[Kt)"[C[C[1@(
+[?2004lreport_1
+report_2
+report_3
+[?2004h]0;student@user-VirtualBox: ~[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2025-04-23 14:32:09+03:00 [COMMAND_EXIT_CODE="0"]
